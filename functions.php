@@ -21,4 +21,15 @@
 
 	add_action("wp_enqueue_scripts", "custom_theme_scripts");
 
+
+
+	/*********************************CUSTOM HEADER LOGO***************************************/
+
+$custom_image_header = array(
+	'width'  => 200,
+	'height' => 200,
+	'uploads' => true,
+);
+
+add_theme_support('custom-header', $custom_image_header);
 ?>
