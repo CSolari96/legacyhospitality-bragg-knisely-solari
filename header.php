@@ -15,7 +15,17 @@
 <body>
 
 	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<?php if(get_header_image()== ''){ ?>
+						<h1><a href=""><?php bloginfo('name'); ?></a></h1><?php
+					} ?>
+				</div>
 
+			<div class="col-lg-9">
+		</div>
+	</div>
 
 
 	</header>

@@ -1,9 +1,26 @@
 /*
 	Theme Name: Legacy Hospitality
-	Theme URI: 
+	Theme URI:
 	Author: Valerie Bragg, Kenney Knisely, and Courtney Solari
 	Description: This theme is created for Legacy Hospitality as part of Projects 2 and 3 for Web Interactivity and Engagement
 	Version: 1.0
 	License: Open
 	Text Domain: legacy_hospitality
 */
+
+/*********************UNIVERSAL STYLING**********************/
+
+.bold {
+  font-weight: bold;
+}
+
+
+/*********************UNIVERSAL STYLING**********************/
+header {
+  background: black;
+}
+
+header img {
+  max-width: 150px;
+  object-fit: contain; 
+}

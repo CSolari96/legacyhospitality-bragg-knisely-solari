@@ -1,6 +1,6 @@
 <footer>
 
-
+<p>This is a temp footer</p>
 
 </footer>
 
