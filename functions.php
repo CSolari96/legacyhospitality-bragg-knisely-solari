@@ -32,4 +32,20 @@ $custom_image_header = array(
 );
 
 add_theme_support('custom-header', $custom_image_header);
+
+
+	/*********************************ADD MENUS TO THEME***************************************/
+function register_my_menu(){
+	register_nav_menus(
+		array(
+		'top-menu' => __( 'Top Menu'),
+		'footer-left' => __('Left footer menu'),
+		'footer-middle' => __('Middle footer menu'),
+		'footer-right' => __('Right footer menu'),
+		)
+	);
+}
+
+add_action('init', 'register_my_menus');
+
 ?>

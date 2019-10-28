@@ -27,7 +27,14 @@
 
 			<div class="col-lg-9 d-flex align-items-center">
 				<nav>
-					<p><a href="#">Navigation goes here</a></p>
+					<?php
+						if(has_nav_menu('top-menu')){
+						wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
+					}else{
+						echo "Please select a top menu through the dashboard";
+					}
+					?>
+				</nav>
 		</div>
 	</div>
 
