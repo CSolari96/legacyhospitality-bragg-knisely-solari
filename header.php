@@ -38,5 +38,5 @@
 		</div>
 	</div>
 
-
+<?php phpinfo(); ?>
 	</header>
