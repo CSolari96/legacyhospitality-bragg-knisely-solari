@@ -35,6 +35,7 @@ add_theme_support('custom-header', $custom_image_header);
 
 
 	/*********************************ADD MENUS TO THEME***************************************/
+
 function register_my_menu(){
 	register_nav_menus(
 		array(
@@ -47,5 +48,23 @@ function register_my_menu(){
 }
 
 add_action('init', 'register_my_menu');
+
+
+
+	/*********************************CUSTOM HEADER LOGO***************************************/
+
+function black_widgets_init(){
+	register_sidebar(array(
+		'name' => ('Right Footer'),
+		'id'=> 'right-footer',
+		'description' => 'Right widget area in footer',
+		'before_widget' => '<div class="widget-footer">',
+		'after_widget' => '</div>',
+		'before_title' => '<p class="footer-widget-contact">',
+		'after_title' => '</p>'
+	));
+}
+
+add_action('widgets_init', 'blank_widgets_init');
 
 ?>

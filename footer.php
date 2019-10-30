@@ -24,16 +24,8 @@
     </nav>
   </div>
 
-  <div class="col-lg-4 d-flex align-items-center">
-    <nav>
-      <?php
-        if(has_nav_menu('footer-right')){
-        wp_nav_menu(array('theme_location' => 'top-right' , 'container_class' => 'footer-right-class'));
-      }else{
-        echo "Please select a footer right menu through the dashboard";
-      }
-      ?>
-    </nav>
+  <div class="col-lg-4 d-flex">
+    <?php dynamic_sidebar('right-footer') ?>
   </div>
 </div>
 </footer>
