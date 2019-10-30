@@ -53,7 +53,7 @@ add_action('init', 'register_my_menu');
 
 	/*********************************CUSTOM HEADER LOGO***************************************/
 
-function black_widgets_init(){
+function blank_widgets_init(){
 	register_sidebar(array(
 		'name' => ('Right Footer'),
 		'id'=> 'right-footer',
