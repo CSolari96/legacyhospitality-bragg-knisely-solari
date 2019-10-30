@@ -25,6 +25,6 @@ header img {
   object-fit: contain;
 }
 
-.top-menu-class ul li {
+#menu-top-menu li {
   display: inline;
 }
