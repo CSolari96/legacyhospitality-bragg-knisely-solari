@@ -6,7 +6,7 @@
 
 	===============================================*/
 
-	function custom_theme_scripts() {
+	function custom_theme_scripts(){
 
 		// Bootstrap Integration
 		wp_enqueue_style("bootstrap", get_template_directory_uri() . "/css/bootstrap.min.css");
@@ -38,10 +38,10 @@ add_theme_support('custom-header', $custom_image_header);
 function register_my_menu(){
 	register_nav_menus(
 		array(
-		'top-menu' => __( 'Top Menu'),
-		'footer-left' => __('Left footer menu'),
-		'footer-middle' => __('Middle footer menu'),
-		'footer-right' => __('Right footer menu'),
+		'top-menu' => _('Top Menu'),
+		'footer-left' => _('Left footer menu'),
+		'footer-middle' => _('Middle footer menu'),
+		'footer-right' => _('Right footer menu'),
 		)
 	);
 }
