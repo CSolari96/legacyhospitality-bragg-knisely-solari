@@ -63,6 +63,16 @@ function blank_widgets_init(){
 		'before_title' => '<p class="footer-widget-contact">',
 		'after_title' => '</p>'
 	));
+
+	register_sidebar(array(
+		'name' => ('Middle Footer'),
+		'id'=> 'Middle-footer',
+		'description' => 'Middle widget area in footer',
+		'before_widget' => '<div class="widget-footer">',
+		'after_widget' => '</div>',
+		'before_title' => '<p class="footer-widget-contact">',
+		'after_title' => '</p>'
+	));
 }
 
 add_action('widgets_init', 'blank_widgets_init');

@@ -12,16 +12,8 @@
       </nav>
   </div>
 
-  <div class="col-lg-4 d-flex align-items-center">
-    <nav>
-      <?php
-        if(has_nav_menu('footer-middle')){
-        wp_nav_menu(array('theme_location' => 'footer-middle' , 'container_class' => 'footer-middle-class'));
-      }else{
-        echo "Please select a footer middle menu through the dashboard";
-      }
-      ?>
-    </nav>
+  <div class="col-lg-4 d-flex">
+    <?php dynamic_sidebar('middle-footer') ?>
   </div>
 
   <div class="col-lg-4 d-flex">
