@@ -24,3 +24,7 @@ header img {
   max-width: 150px;
   object-fit: contain;
 }
+
+.top-menu-class li {
+  display: inline;
+}

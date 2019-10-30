@@ -12,11 +12,11 @@
       </nav>
   </div>
 
-  <div class="col-lg-4 d-flex">
+  <div class="col-lg-4 d-flex align-items-center">
     <?php dynamic_sidebar('middle-footer') ?>
   </div>
 
-  <div class="col-lg-4 d-flex">
+  <div class="col-lg-4 d-flex align-items-center">
     <?php dynamic_sidebar('right-footer') ?>
   </div>
 </div>
