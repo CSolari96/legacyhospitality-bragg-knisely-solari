@@ -25,7 +25,7 @@
 					<?php } ?>
 				</div>
 
-			<div class="col-lg-9 d-flex align-items-center">
+			<div class="col-lg-9 d-flex align-items-center" id="top-menu">
 				<nav>
 					<?php
 						if(has_nav_menu('top-menu')){
