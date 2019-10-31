@@ -73,7 +73,39 @@ function blank_widgets_init(){
 		'before_title' => '<p class="footer-widget-contact">',
 		'after_title' => '</p>'
 	));
+
+	register_sidebar(array(
+		'name' => ('Hero Image'),
+		'id'=> 'hero-image',
+		'description' => 'Hero image of Tony on the home page',
+		'before_widget' => '<div class="widget-hero-image">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="hero-image-widget-title">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
+		'name' => ('About Legacy'),
+		'id'=> 'about-legacy',
+		'description' => 'About Widget area on the home page',
+		'before_widget' => '<div class="widget-about-legacy">',
+		'after_widget' => '</div>',
+		'before_title' => '<p class="about-us-widget-home">',
+		'after_title' => '</p>'
+	));
+
+	register_sidebar(array(
+		'name' => ('What We Offer'),
+		'id'=> 'what-we-offer',
+		'description' => 'What we offer Widget area on the home page',
+		'before_widget' => '<div class="widget-what-we-offer">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="what-we-offer-widget-home">',
+		'after_title' => '</h3>'
+	));
+
 }
+
 
 add_action('widgets_init', 'blank_widgets_init');
 
