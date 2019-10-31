@@ -12,12 +12,12 @@ Template Post Type: page
       <div class="row">
         <div class="col-md-5">
           <?php dynamic_sidebar('about-legacy'); ?>
+        </div>
 
         <div class="col-md-7">
           <?php dynamic_sidebar('hero-image'); ?>
         </div>
       </div>
-    </div>
 
       <div class="row">
         <div class="col-md-12">
