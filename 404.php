@@ -3,8 +3,8 @@
   <div class="row">
     <main class="col-md-12">
       <h2>We truly apoligize...</h2>
-      <p>We appreciate our website visitors, but that link no longer exists. Please head back to our <a href="<?php echo home_url('/');?>">homepage</a> to learn more about Legacy Hospitality.</p>
-      <img src="<?php get_template_directory_uri() . '/img/logo_placeholder.jpg' ?>" alt= "Error message" />
+      <p>We appreciate your business, but that link no longer exists. Please head back to our <a href="<?php echo home_url('/');?>">homepage</a> to learn more about Legacy Hospitality.</p>
+      <img src="<?php get_template_directory_uri() . '/img/logo_placeholder.jpg'?>" alt="Error message" />
     </main>
 
   </div>
