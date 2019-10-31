@@ -25,6 +25,6 @@ header img {
   object-fit: contain;
 }
 
-#menu-top-menu li {
+#menu-top-menu li { /*This isn't working, need to find out why */
   display: inline;
 }
