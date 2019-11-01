@@ -104,6 +104,16 @@ function blank_widgets_init(){
 		'after_title' => '</h3>'
 	));
 
+
+	register_sidebar(array(
+		'name' => ('Contact Form'),
+		'id'=> 'contact-form',
+		'description' => 'Contact form widget area',
+		'before_widget' => '<div class="widget-contact-form">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="contact-form-widget">',
+		'after_title' => '</h3>'
+	));
 }
 
 
