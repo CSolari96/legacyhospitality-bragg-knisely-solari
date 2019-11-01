@@ -8,22 +8,33 @@ Template Post Type: page
 
 <?php get_header(); ?>
   <div class="container">
-    <div class="row">
-      <main class="col-md-12">
-        <?php
-          if(have_posts()){
-            while(have_posts()){
-              the_post(); ?>
+    
+    <div class="row">  
 
-              <h2 class="entry-title"><?php the_title(); ?></h2>
+      <main>
 
-              <?php the_content(); ?>
-          <?php  }//ends while loop
-          }//ends the if statement
-         ?>
+        <section class="col-md-6">
+
+          <?php dynamic_sidebar("contact-form"); ?>
+
+        </section>
+
+        <section class="col-md-6">
+          <?php
+            if(have_posts()){
+              while(have_posts()){
+                the_post(); ?>
+
+                <?php the_content(); ?>
+            <?php  }//ends while loop
+            }//ends the if statement
+           ?>
+       </section>
 
       </main>
+
     </div>
+    
   </div>
 
 <?php get_footer(); ?>
