@@ -15,7 +15,6 @@
                 <a class="btn btn-secondary btn-sm" href="<?php the_permalink(); ?>">Read more</a>
               <?php the_content(); ?>
               </div>
-              <?php the_content(); ?>
           <?php  }//ends while loop
           }//ends the if statement
          ?>
