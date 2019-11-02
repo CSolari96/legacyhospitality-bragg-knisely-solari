@@ -10,10 +10,9 @@
 
                 <h2 class="entry-title"><?php the_title(); ?></h2>
                 <p class="post-info"><?php echo "Published " . get_the_date(); ?></p>
-                <?php the_excerpt(); ?>
 
-                <a class="btn btn-secondary btn-sm" href="<?php the_permalink(); ?>">Read more</a>
               <?php the_content(); ?>
+              <a class="btn btn-secondary btn-sm" href="<?php the_permalink(); ?>">Read more</a>
               </div>
           <?php  }//ends while loop
           }//ends the if statement
