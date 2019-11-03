@@ -14,6 +14,10 @@
   font-weight: bold;
 }
 
+body {
+  background: #2d2d2e;
+}
+
 
 /*********************HEADER**********************/
 header {
@@ -33,6 +37,12 @@ header img {
   color: #ffffff;
   margin: 0 1rem;
 }
+
+/*********************HOME PAGE STYLING**********************/
+.widget-about-legacy {
+  margin: 2rem 0;
+}
+
 
 
 /*********************POST FEATURED IMAGES**********************/
