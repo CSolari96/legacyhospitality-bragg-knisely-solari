@@ -26,6 +26,17 @@ main {
   min-height: 600px;
 }
 
+#h1-monserret {
+
+}
+
+h1#h1-gotham {
+  font-weight: bold;
+}
+
+h1.red {
+  color: #d90000;
+}
 
 /*********************HEADER**********************/
 header {
