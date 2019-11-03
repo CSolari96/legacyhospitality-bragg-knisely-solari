@@ -26,20 +26,7 @@ main {
   min-height: 600px;
 }
 
-#h1-monserret {
-  color: #949293;
-  font-size: 4rem;
-}
 
-#h1-gotham {
-  font-weight: bold;
-  font-size: 8rem;
-  letter-spacing: 5px; 
-}
-
-.red {
-  color: #d90000;
-}
 
 /*********************HEADER**********************/
 header {
@@ -71,6 +58,30 @@ header img {
   margin: 2rem 0;
 }
 
+#h1-monserret {
+  color: #949293;
+  font-size: 4rem;
+}
+
+#h1-gotham {
+  font-weight: bold;
+  font-size: 10rem;
+  letter-spacing: 5px;
+}
+
+.red {
+  color: #d90000;
+}
+
+.widget-hero-image {
+  position: relative;
+  top: -20rem;
+  margin-bottom: -10rem;
+}
+
+h1 {
+  position: relative; 
+}
 
 
 /*********************POST FEATURED IMAGES**********************/
