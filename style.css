@@ -75,12 +75,15 @@ header img {
 
 .widget-hero-image {
   position: relative;
-  top: -20rem;
+  top: -15rem;
   margin-bottom: -10rem;
 }
 
+
+
 h1 {
-  position: relative; 
+  position: relative;
+  z-index: 999;
 }
 
 
