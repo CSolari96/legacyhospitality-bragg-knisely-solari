@@ -27,11 +27,13 @@ main {
 }
 
 #h1-monserret {
-
+  color: #949293;
+  font-size: 4rem;
 }
 
 #h1-gotham {
   font-weight: bold;
+  font-size: 6rem; 
 }
 
 .red {
