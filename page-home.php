@@ -20,12 +20,13 @@ Template Post Type: page
       </div>
 
       <div class="row">
+
         <div class="col-md-4">
-          <?php dynamic_sidebar('what-we-offer'); ?>
+          <?php dynamic_sidebar('title-what-we-offer'); ?>
         </div>
 
         <div class="col-md-8">
-          <?php dynamic_sidebar('title-what-we-offer'); ?>
+          <?php dynamic_sidebar('what-we-offer'); ?>
         </div>
       </div>
 
