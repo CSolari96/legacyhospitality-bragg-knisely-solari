@@ -39,11 +39,12 @@ header img {
 
 .top-menu-class li { /*This isn't working, need to find out why */
   display: inline;
+  text-align: right;
 }
 
 .top-menu-class a {
   color: #ffffff;
-  margin: 0 1rem;
+  margin: 0 3rem;
 }
 
 .top-menu-class a:hover, a:active {

@@ -9,6 +9,10 @@ Template Post Type: page
 <?php get_header(); ?>
   <div class="container">
     <main>
+      <div class="row>">
+        <h1 class= "knowledge-power-title"><span id="h1-monserret">KNOWLEDGE <span class="red">+</span><br /> PASSION <span class="red">=</span></span><br /><span id="h1-gotham">POWER</span></h1>
+      </div>
+
       <div class="row">
         <div class="col-md-5">
           <?php dynamic_sidebar('about-legacy'); ?>
