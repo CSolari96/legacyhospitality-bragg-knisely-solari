@@ -120,6 +120,6 @@ add_action('widgets_init', 'blank_widgets_init');
 
 	/*********************************ADD FEATURED IMAGE CAPABILITY***************************************/
 
-add_theme_support('custom-header' , $custom_image_header);
+add_theme_support('post-thumbnails');
 
 ?>
