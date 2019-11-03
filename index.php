@@ -12,7 +12,7 @@
               <p class="post-info"><?php echo "Published: " . get_the_date(); ?></p>
 
               <div class-"post-featured-image">
-                <?php the_post_thumbnail('medium_large'); ?>
+                <?php the_post_thumbnail('large'); ?>
               </div>
               <?php the_content(); ?>
               <a class="btn btn-secondary btn-sm" href="<?php the_permalink(); ?>">Read more</a>
