@@ -30,11 +30,11 @@ main {
 
 }
 
-h1#h1-gotham {
+#h1-gotham {
   font-weight: bold;
 }
 
-h1.red {
+.red {
   color: #d90000;
 }
 
