@@ -17,7 +17,7 @@
 
 /*********************HEADER**********************/
 header {
-  background: black;
+  background: #2d2d2e;
 }
 
 header img {
@@ -25,8 +25,13 @@ header img {
   object-fit: contain;
 }
 
-#menu-top-menu li { /*This isn't working, need to find out why */
+.top-menu-class li { /*This isn't working, need to find out why */
   display: inline;
+}
+
+.top-menu-class a {
+  color: #ffffff;
+  margin: 0 1rem;
 }
 
 
