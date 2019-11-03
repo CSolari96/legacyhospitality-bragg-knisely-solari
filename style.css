@@ -67,7 +67,7 @@ header img {
 /*********************FOOTER STYLING**********************/
 footer {
   padding: 30px 0;
-  color: #000000;
+  background-color: #000000;
 }
 
 .footer-left-class li {
@@ -80,5 +80,5 @@ footer {
 
 .footer-left-class a:hover, a:active {
   color: #d90000;
-  text-decoration: none; 
+  text-decoration: none;
 }
