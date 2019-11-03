@@ -9,7 +9,7 @@
 
               <h2 class="entry-title"><?php the_title(); ?></h2>
 
-              <p class="post-information"><?php echo "<span class='bold'>Published </span>" . get_the_date(); echo " | <span class= 'bold'>Written by: </span>" . get_the_author(); ?></p>
+              <p class="post-information"><?php echo "<span class='bold'>Published: </span>" . get_the_date(); echo " | <span class= 'bold'>Written by: </span>" . get_the_author(); ?></p>
 
               <?php the_content(); ?>
           <?php  }//ends while loop

@@ -51,7 +51,7 @@ add_action('init', 'register_my_menu');
 
 
 
-	/*********************************CUSTOM HEADER LOGO***************************************/
+	/*********************************WIDGETS***************************************/
 
 function blank_widgets_init(){
 	register_sidebar(array(
@@ -116,7 +116,10 @@ function blank_widgets_init(){
 	));
 }
 
-
 add_action('widgets_init', 'blank_widgets_init');
+
+	/*********************************ADD FEATURED IMAGE CAPABILITY***************************************/
+
+add_theme_support('custom-header' , $custom_image_header);
 
 ?>
