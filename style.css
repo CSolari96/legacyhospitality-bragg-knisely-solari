@@ -28,3 +28,10 @@ header img {
 #menu-top-menu li { /*This isn't working, need to find out why */
   display: inline;
 }
+
+
+/*********************POST FEATURED IMAGES**********************/
+.post-featured-image img {
+  object-fit: cover;
+  margin-right: 10%;
+}
