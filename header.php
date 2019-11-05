@@ -17,7 +17,7 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 d-flex align-items-center">
+				<div class="col-md-3">
 					<?php if(get_header_image() == ''){?>
 						<h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name'); ?></a></h1><?php
 					}else{?>
@@ -25,7 +25,7 @@
 					<?php } ?>
 				</div>
 
-			<div class="col-lg-9 d-flex align-items-center" id="top-menu">
+			<div class="col-md-9" id="top-menu">
 				<nav>
 					<?php
 						if(has_nav_menu('top-menu')){
