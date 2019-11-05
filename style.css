@@ -27,18 +27,15 @@
 
 /*********************UNIVERSAL STYLING**********************/
 
-.bold {
-  font-weight: bold;
-}
-
 body {
+  /* Background Gradient */
   background: #2D2D2E;
   background: -webkit-linear-gradient(top, #2D2D2E, #3A3A3C);
   background: -moz-linear-gradient(top, #2D2D2E, #3A3A3C);
   background: linear-gradient(to bottom, #2D2D2E, #3A3A3C);
-}
 
-h1, h2, h3, p {
+  /* Font and Font Color */
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
 }
 
@@ -46,7 +43,9 @@ main {
   min-height: 600px;
 }
 
-
+.bold {
+  font-family: 'Gotham Black', sans-serif;
+}
 
 /*********************HEADER**********************/
 
