@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Home Page Layout
+Template Name: About Page Layout
 Template Post Type: page
 */
  ?>
