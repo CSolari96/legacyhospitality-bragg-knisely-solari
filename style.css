@@ -17,6 +17,14 @@
     Red:        #d90000;
 */
 
+/*********************IMPORT FONTS**********************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('../fonts/gotham-black.otf') format('opentype');
+}
+
 /*********************UNIVERSAL STYLING**********************/
 
 .bold {
