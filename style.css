@@ -125,7 +125,7 @@ h1 {
 
 /*********************PROJECTS STYLING**********************/
 .project-buttons {
-  padding-bottom: 5% !important; /*This is not working */
+  margin-bottom: 5%;
 }
 /*********************FOOTER STYLING**********************/
 footer {
