@@ -25,6 +25,7 @@ Template Post Type: page
       </div>
     </section>
 
+    <section class="top-bottom-space">
       <div class="row">
 
         <div class="col-md-4">
@@ -35,6 +36,7 @@ Template Post Type: page
           <?php dynamic_sidebar('what-we-offer'); ?>
         </div>
       </div>
+    </section>
 
     </main>
   </div>
