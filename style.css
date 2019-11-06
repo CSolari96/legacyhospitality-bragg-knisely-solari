@@ -47,6 +47,10 @@ main {
   font-family: 'Gotham Black', sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
 /*********************HEADER**********************/
 
 header img {
