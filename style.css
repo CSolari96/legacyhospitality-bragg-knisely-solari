@@ -50,7 +50,7 @@ main {
 /*********************HEADER**********************/
 
 header img {
-  max-width: 150px;
+  max-width: 200px;
   object-fit: contain;
 }
 
@@ -98,15 +98,18 @@ header img {
 
 .widget-hero-image {
   position: relative;
-  top: -15rem;
+  top: -12rem;
   margin-bottom: -10rem;
 }
-
-
 
 h1 {
   position: relative;
   z-index: 999;
+}
+
+.red-left-border {
+  border-left: 1px solid #d90000;
+  padding: 10%;
 }
 
 
