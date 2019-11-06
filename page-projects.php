@@ -12,7 +12,7 @@
                 <p class="post-info"><?php echo "Published " . get_the_date(); ?></p>
 
               <?php the_content(); ?>
-              <a class="btn btn-secondary btn-sm" href="<?php the_permalink(); ?>">Read more</a>
+              <a class="btn btn-secondary btn-sm project-buttons" href="<?php the_permalink(); ?>">Read more</a>
               </div>
           <?php  }//ends while loop
           }//ends the if statement

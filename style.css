@@ -123,6 +123,10 @@ h1 {
   margin-right: 10%;
 }
 
+/*********************PROJECTS STYLING**********************/
+.project-buttons {
+  padding-bottom: 5%;
+}
 /*********************FOOTER STYLING**********************/
 footer {
   padding: 35px 0;
@@ -140,4 +144,8 @@ footer {
 .footer-left-class a:hover, a:active {
   color: #d90000;
   text-decoration: none;
+}
+
+.widget-footer {
+  border-top: 1px solid #d90000;
 }
