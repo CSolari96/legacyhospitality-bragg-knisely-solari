@@ -110,6 +110,7 @@ h1 {
 .red-left-border {
   border-left: 1px solid #d90000;
   padding: 10%;
+  margin-top: 20px; 
 }
 
 
