@@ -54,6 +54,8 @@
 
 				<div class="col-md-9" id="top-menu">
 
+					<span id="open-mobile-menu">&#9776;</span>
+
 					<nav class="desktop-nav">
 
 						<?php
