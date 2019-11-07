@@ -87,6 +87,12 @@ header img {
   color: #2d2d2e;
   text-decoration: none;
   font-size: 3rem;
+  transition: all 0.5s;
+}
+
+.mobile-menu a:hover, .mobile-menu a:active {
+  color: #d90000;
+  transition: all 0.5s;
 }
 
 .mobile-top-menu-class {
