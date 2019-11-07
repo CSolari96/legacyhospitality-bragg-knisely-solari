@@ -193,6 +193,29 @@ h1 {
   box-shadow: inset 0px 0px 5px 0px #2d2d2e;
 }
 
+.email-address, .phone-number {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 3rem;
+}
+
+.email-address {
+  border-bottom: 2px solid #d90000;
+  padding-bottom: 5%;
+}
+
+.email-address a:link, .email-address a:visited {
+  color: #ffffff;
+}
+
+.email-address a:hover, .email-address a:active {
+  text-decoration: none;
+  color: #949293;
+}
+
+.gray {
+  color: #949293;
+}
+
 /*********************FOOTER STYLING**********************/
 footer {
   padding: 35px 0;
