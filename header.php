@@ -37,7 +37,7 @@
 
 			<div class="row">
 
-				<div class="col-md-3">
+				<div class="col-9 col-md-3">
 
 					<?php 
 						if (get_header_image() == '') { ?>
@@ -52,9 +52,9 @@
 
 				</div>
 
-				<div class="col-md-9" id="top-menu">
+				<div class="col-3 col-md-9" id="top-menu">
 
-					<span id="open-mobile-menu">&#9776;</span>
+					<span id="open-mobile-menu" class="open-menu">&#9776;</span>
 
 					<nav class="desktop-nav">
 
