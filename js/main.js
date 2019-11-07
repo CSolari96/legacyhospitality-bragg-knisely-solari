@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	// When the user clickes the mobile menu open button, display the mobile menu and hide the menu open button
 	menuOpen.addEventListener("click", function() {
+		mobileMenu.style.right = "0";		// Reset right to 0 from where we accounted for added padding when hiding menu
 		mobileMenu.style.width = "100%";
 		menuOpen.classList.add("hide");
 	});
