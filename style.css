@@ -164,6 +164,35 @@ h1 {
 .project-buttons {
   margin-bottom: 5%;
 }
+
+/*********************CONTACT STYLING**********************/
+.widget-contact-form label, .widget-contact-form span, .your-name input, .your-email input, .comment textarea {
+  width: 100%;
+}
+
+.your-name input, .your-email input, .comment textarea {
+  background-color: #949293;
+  color: #ffffff;
+  border: 0;
+  box-shadow: inset 0px 0px 5px 0px #2d2d2e;
+  padding: 2%;
+}
+
+.wpcf7-submit {
+  background-color: #d90000;
+  color: #ffffff;
+  border: 0;
+  font-size: 2rem;
+  font-family: "Gotham Black", sans-serif;
+  text-transform: uppercase;
+  padding: 2%;
+  width: 30%;
+}
+
+.wpcf7-submit:hover {
+  box-shadow: inset 0px 0px 5px 0px #2d2d2e;
+}
+
 /*********************FOOTER STYLING**********************/
 footer {
   padding: 35px 0;
