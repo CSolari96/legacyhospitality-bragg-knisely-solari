@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	// When the user clicks the mobile menu close button, hide the mobile menu and display the menu open button
 	menuClose.addEventListener("click", function () {
 		mobileMenu.style.width = "0";
+		mobileMenu.style.right = "-130%";
 		menuOpen.classList.remove("hide");
 	});
 });

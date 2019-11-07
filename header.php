@@ -20,7 +20,7 @@
 
 			<nav class="mobile-menu">
 
-				<p><a href="javascript:void()" id="close-menu">&times;</a></p>
+				<p class="close-menu-container"><a href="javascript:void()" id="close-menu">&times;</a></p>
 
 				<?php
 					if (has_nav_menu('top-menu')) {

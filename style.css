@@ -93,6 +93,10 @@ header img {
   border-right: 2px solid #d90000;
   padding-right: 10%;
 }
+
+.close-menu-container {
+  text-align: center;
+}
 /* End Navigation */
 
 /*********************HOME PAGE STYLING**********************/
