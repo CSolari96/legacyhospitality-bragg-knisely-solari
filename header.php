@@ -16,24 +16,24 @@
 
 	<header>
 
+		<nav class="mobile-menu">
+
+			<p class="close-menu-container"><a href="javascript:void()" id="close-menu">&times;</a></p>
+
+			<?php
+				if (has_nav_menu('top-menu')) {
+
+					wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'mobile-top-menu-class'));
+				
+				} else {
+
+					echo "Please select a top menu through the dashboard";
+				}
+			?>
+
+		</nav>
+
 		<div class="container">
-
-			<nav class="mobile-menu">
-
-				<p class="close-menu-container"><a href="javascript:void()" id="close-menu">&times;</a></p>
-
-				<?php
-					if (has_nav_menu('top-menu')) {
-
-						wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'mobile-top-menu-class'));
-					
-					} else {
-
-						echo "Please select a top menu through the dashboard";
-					}
-				?>
-
-			</nav>
 
 			<div class="row">
 
