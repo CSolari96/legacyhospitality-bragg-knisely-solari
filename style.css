@@ -68,6 +68,7 @@ header img {
   font-size: 3rem;
   text-align: center;
   padding-top: 20%;
+  cursor: pointer;
 }
 
 .mobile-menu {
