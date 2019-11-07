@@ -116,6 +116,10 @@ h1 {
   padding: 10% 0;
 }
 
+.widget-title-what-we-offer {
+  text-align: right; 
+}
+
 
 /*********************POST FEATURED IMAGES**********************/
 .post-featured-image img {
