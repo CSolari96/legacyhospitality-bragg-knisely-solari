@@ -98,8 +98,8 @@ header img {
 
 .widget-hero-image {
   position: relative;
-  top: -12rem;
-  margin-bottom: -10rem;
+  top: -9rem;
+  margin-bottom: -5rem;
 }
 
 h1 {
@@ -144,4 +144,9 @@ footer {
 .footer-left-class a:hover, a:active {
   color: #d90000;
   text-decoration: none;
+}
+
+.widget-footer:first-child {
+  border-top: 1px solid #d90000;
+  margin: 10px 0; 
 }
