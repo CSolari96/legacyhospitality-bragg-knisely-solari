@@ -47,6 +47,10 @@ main {
   font-family: 'Gotham Black', sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
 /*********************HEADER**********************/
 
 header img {
@@ -54,27 +58,52 @@ header img {
   object-fit: contain;
 }
 
-.top-menu-class ul {
-  display: flex;
-  justify-content: space-around;
-  padding: 5% 0;
+/* Navigation */
+.desktop-nav {
+  display: none;
 }
 
-.top-menu-class ul li {
+.mobile-menu {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: -20%;
+  right: 0;
+  overflow-y: hidden;
+  transition: 0.5s;
+  text-align: right;
+  padding-top: 20%;
+  padding-right: 10%;
+  background-color: #ffffff;
+}
+
+.mobile-menu ul li {
   list-style-type: none;
-  display: inline;
+  padding: 5%;
 }
 
-.top-menu-class ul li a:link, .top-menu-class ul li a:visited {
-  color: #949293;
+.mobile-menu a:link, .mobile-menu a:visited {
+  color: #2d2d2e;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
+  transition: all 0.5s;
 }
 
-.top-menu-class ul li a:hover, .top-menu-class ul li a:hover {
-  border-bottom: 2px solid #d90000;
-  padding-bottom: 5%;
+.mobile-menu a:hover, .mobile-menu a:active {
+  color: #d90000;
+  transition: all 0.5s;
 }
+
+.mobile-top-menu-class {
+  border-right: 2px solid #d90000;
+  padding-right: 10%;
+}
+
+.close-menu-container {
+  text-align: center;
+}
+/* End Navigation */
 
 /*********************HOME PAGE STYLING**********************/
 .widget-about-legacy {
@@ -150,3 +179,38 @@ footer {
   border-top: 1px solid #d90000;
   margin: 15px 0;
 }
+
+/* Media Query - Min 750px */
+@media (min-width: 750px) {
+  .mobile-menu, #open-mobile-menu {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  .top-menu-class ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+  }
+
+  .top-menu-class ul li {
+    list-style-type: none;
+    display: inline;
+  }
+
+  .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
+    color: #949293;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .top-menu-class ul li a:hover, .top-menu-class ul li a:hover {
+    border-bottom: 2px solid #d90000;
+    padding-bottom: 5%;
+  }
+
+}
+/* End Min 750 */
