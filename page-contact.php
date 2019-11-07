@@ -12,13 +12,13 @@ Template Post Type: page
 
     <div class="row">
 
-      <section class="col-md-8">
+      <section class="col-md-6">
 
         <?php dynamic_sidebar("contact-form"); ?>
 
       </section>
 
-      <section class="col-md-4">
+      <section class="col-md-6">
         <?php
           if(have_posts()){
             while(have_posts()){
