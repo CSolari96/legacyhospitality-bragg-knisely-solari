@@ -63,6 +63,13 @@ header img {
   display: none;
 }
 
+.open-menu {
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 20%;
+}
+
 .mobile-menu {
   height: 0;
   width: 100%;
