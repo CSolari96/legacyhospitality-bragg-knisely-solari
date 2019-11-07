@@ -7,34 +7,31 @@ Template Post Type: page
 ?>
 
 <?php get_header(); ?>
-  <div class="container">
-    
-    <div class="row">  
 
-      <main>
+  <main class="container">
 
-        <section class="col-md-6">
+    <div class="row">
 
-          <?php dynamic_sidebar("contact-form"); ?>
+      <section class="col-md-6">
 
-        </section>
+        <?php dynamic_sidebar("contact-form"); ?>
 
-        <section class="col-md-6">
-          <?php
-            if(have_posts()){
-              while(have_posts()){
-                the_post(); ?>
+      </section>
 
-                <?php the_content(); ?>
-            <?php  }//ends while loop
-            }//ends the if statement
-           ?>
-       </section>
+      <section class="col-md-6">
+        <?php
+          if(have_posts()){
+            while(have_posts()){
+              the_post(); ?>
 
-      </main>
+              <?php the_content(); ?>
+          <?php  }//ends while loop
+          }//ends the if statement
+         ?>
+     </section>
 
     </div>
-    
-  </div>
+
+  </main>
 
 <?php get_footer(); ?>
