@@ -69,15 +69,30 @@ header img {
   position: fixed;
   z-index: 1000;
   top: 0;
-  right: 0;
+  right: -30%;
   overflow-x: hidden;
   transition: 0.5s;
-  text-align: center;
+  text-align: right;
   padding-top: 20%;
-  background-color: #d90000;
+  padding-right: 10%;
+  background-color: #ffffff;
 }
 
+.mobile-menu ul li {
+  list-style-type: none;
+  padding: 5%;
+}
 
+.mobile-menu a:link, .mobile-menu a:visited {
+  color: #2d2d2e;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.mobile-top-menu-class {
+  border-right: 2px solid #d90000;
+  padding-right: 10%;
+}
 /* End Navigation */
 
 /*********************HOME PAGE STYLING**********************/
@@ -140,8 +155,8 @@ footer {
 }
 
 
-/* Media Query - Min 600px */
-@media (min-width: 600px) {
+/* Media Query - Min 750px */
+@media (min-width: 750px) {
   .mobile-menu, #open-mobile-menu {
     display: none;
   }
@@ -173,4 +188,4 @@ footer {
   }
 
 }
-/* End Min 600 */
+/* End Min 750 */
