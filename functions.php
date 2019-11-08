@@ -39,10 +39,10 @@ add_theme_support('custom-header', $custom_image_header);
 function register_my_menu(){
 	register_nav_menus(
 		array(
-		'top-menu' => _('Top Menu'),
-		'footer-left' => _('Left footer menu'),
-		'footer-middle' => _('Middle footer menu'),
-		'footer-right' => _('Right footer menu'),
+		'top-menu' => ('Top Menu'),
+		'footer-left' => ('Left footer menu'),
+		'footer-middle' => ('Middle footer menu'),
+		'footer-right' => ('Right footer menu'),
 		)
 	);
 }
