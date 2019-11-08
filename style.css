@@ -195,6 +195,10 @@ h1 {
   box-shadow: 0px 0px 5px 0px #d90000;
 }
 
+.your-name input::placeholder, .your-email input::placeholder, .comment textarea::placeholder {
+  color: #2d2d2e;
+}
+
 .wpcf7-submit {
   background-color: #d90000;
   color: #ffffff;
