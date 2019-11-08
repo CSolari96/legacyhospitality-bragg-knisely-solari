@@ -316,3 +316,19 @@ footer {
   }
 }
 /* End Min 1000 */
+
+/* Media Query - Max 575px */
+@media (max-width: 575px) {
+  body {
+    padding-left: 3%;
+  }
+}
+/* End Max 575 */
+
+/* Media Query - Max 400px */
+@media (max-width: 400px) {
+  .email-address, .phone-number {
+    font-size: 2rem;
+  }
+}
+/* End Max 400 */
