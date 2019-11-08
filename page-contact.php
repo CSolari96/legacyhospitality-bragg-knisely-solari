@@ -12,7 +12,7 @@ Template Post Type: page
 
     <div class="row">
 
-      <section class="col-md-6">
+      <section class="col-md-6 contact-form">
 
         <?php dynamic_sidebar("contact-form"); ?>
 
