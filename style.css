@@ -171,6 +171,10 @@ h1 {
 }
 
 /*********************CONTACT STYLING**********************/
+.contact-form {
+  order: 2;
+}
+
 .widget-contact-form span, .your-name input, .your-email input, .comment textarea {
   width: 100%;
 }
@@ -305,8 +309,10 @@ footer {
 }
 /* End Min 768 */
 
+/* Media Query - Min 1000px */
 @media (min-width: 1000px) {
   .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
     font-size: 2rem;
   }
 }
+/* End Min 1000 */
