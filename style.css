@@ -155,14 +155,26 @@ h1 {
 }
 
 .widget-title-what-we-offer {
-  text-align: right; 
+  text-align: right;
 }
 
 
-/*********************POST FEATURED IMAGES**********************/
-.post-featured-image img {
-  object-fit: cover;
-  margin-right: 10%;
+/*********************POST STYLING**********************/
+.jumbotron {
+  width: 95%;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0;
+}
+
+.jumbotron h1 {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 /*********************PROJECTS STYLING**********************/

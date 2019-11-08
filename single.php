@@ -11,12 +11,21 @@
       $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
       $thumb_url = $thumb_url_array[0];
       ?>
+<!-- Get the subtitle -->
+      <?php
+      $subtitle = apply_filters( 'plugins/wp_subtitle/get_subtitle', '', array(
+          'before'  => '<p class="subtitle">',
+          'after'   => '</p>',
+          'post_id' => get_the_ID()
+      ) );
+       ?>
 
 <!-- Jumbotron header -->
       <div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
+              <h2> <?php echo $subtitle;?></h2>
               <h1> <?php the_title(); ?> </h1>
             </div>
           </div>
