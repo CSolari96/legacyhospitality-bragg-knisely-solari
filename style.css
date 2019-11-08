@@ -162,6 +162,7 @@ h1 {
 
 /*********************POST STYLING**********************/
 .jumbotron {
+  margin-top: 10%;
   width: 95%;
   height: 400px;
   background-size: cover;
@@ -169,22 +170,38 @@ h1 {
   justify-content: flex-end;
   align-items: flex-end;
   padding: 0;
+  position: relative;
+  z-index: -1;
 }
 
 .jumbotron h2 {
   text-align: right;
+  z-index: 10;
 }
 
 .jumbotron hr {
   border: 2px solid #d90000;
   transform:translateX(650px);
+  width: 90%;
+  z-index: 10;
 }
 
 .jumbotron h1 {
   font-family: "Gotham Black", sans-serif;
-  font-size: 5rem;
+  font-size: 7rem;
   text-transform: uppercase;
   text-align: right;
+  z-index: 10;
+}
+
+.square{
+  position: absolute;
+  max-height: 528px;
+  max-width: 528px;
+  top: -113%;
+  left: -18%;
+  width: 55%;
+  z-index: 1;
 }
 
 
