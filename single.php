@@ -11,6 +11,7 @@
       $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
       $thumb_url = $thumb_url_array[0];
       ?>
+
 <!-- Get the subtitle -->
       <?php
       $subtitle = apply_filters( 'plugins/wp_subtitle/get_subtitle', '', array(
@@ -26,6 +27,7 @@
           <div class="row">
             <div class="col-md-12">
               <h2> <?php echo $subtitle;?></h2>
+              <hr>
               <h1> <?php the_title(); ?> </h1>
             </div>
           </div>

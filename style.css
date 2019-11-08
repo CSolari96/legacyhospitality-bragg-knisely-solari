@@ -37,6 +37,7 @@ body {
   /* Font and Font Color */
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
+  overflow: hidden;
 }
 
 main {
@@ -170,12 +171,22 @@ h1 {
   padding: 0;
 }
 
+.jumbotron h2 {
+  text-align: right;
+}
+
+.jumbotron hr {
+  border: 2px solid #d90000;
+  transform:translateX(650px);
+}
+
 .jumbotron h1 {
   font-family: "Gotham Black", sans-serif;
   font-size: 5rem;
   text-transform: uppercase;
   text-align: right;
 }
+
 
 /*********************PROJECTS STYLING**********************/
 .project-buttons {
