@@ -170,8 +170,16 @@ h1 {
 }
 
 /*********************CONTACT STYLING**********************/
-.widget-contact-form label, .widget-contact-form span, .your-name input, .your-email input, .comment textarea {
+.widget-contact-form span, .your-name input, .your-email input, .comment textarea {
   width: 100%;
+}
+
+.widget-contact-form label {
+  display: none;
+}
+
+.your-name input, .your-email input {
+  margin-bottom: 1%;
 }
 
 .your-name input, .your-email input, .comment textarea {
