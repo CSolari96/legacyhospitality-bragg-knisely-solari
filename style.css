@@ -178,6 +178,11 @@ h1 {
   padding: 2%;
 }
 
+.your-name input:focus, .your-email input:focus, .comment textarea:focus {
+  outline: 0;
+  box-shadow: 0px 0px 5px 0px #d90000;
+}
+
 .wpcf7-submit {
   background-color: #d90000;
   color: #ffffff;
@@ -191,6 +196,11 @@ h1 {
 
 .wpcf7-submit:hover {
   box-shadow: inset 0px 0px 5px 0px #2d2d2e;
+}
+
+.wpcf7-submit:focus {
+  outline: 0;
+  box-shadow: 0px 0px 5px 0px #949293;
 }
 
 .email-address, .phone-number {
