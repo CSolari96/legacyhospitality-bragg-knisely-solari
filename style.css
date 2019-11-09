@@ -387,6 +387,19 @@ footer {
   .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
     font-size: 2rem;
   }
+
+  .what-we-offer-title {
+    font-size: 5rem;
+    padding-left: 15%;
+  }
+
+  .widget-title-what-we-offer {
+    text-align: right;
+    position: relative;
+    top: -300px;
+    width: 80%;
+    margin-left: auto;
+  }
 }
 /* End Min 1000 */
 
