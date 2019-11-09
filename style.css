@@ -119,12 +119,12 @@ header img {
 
 #menu-top-menu-1{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  width: 40%;
 }
 
 #menu-top-menu-1 a {
-  font-size: 1rem;
-  margin-left: 2%;
+  font-size: 1.5rem;
 }
 
 /*********************ABOUT PAGE STYLING**********************/
