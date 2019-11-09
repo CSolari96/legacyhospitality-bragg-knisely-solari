@@ -42,12 +42,17 @@
         <main class="col-md-12">
 
               <?php the_content(); ?>
-          <?php  }//ends while loop
-          }//ends the if statement
-         ?>
 
-      </main>
+        </main>
+      </div>
     </div>
-  </div>
+
+
+
+      <?php  }//ends while loop
+      }//ends the if statement
+     ?>
+
+
 
 <?php get_footer(); ?>

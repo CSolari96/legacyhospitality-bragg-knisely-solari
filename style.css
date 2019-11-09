@@ -37,7 +37,7 @@ body {
   /* Font and Font Color */
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 main {

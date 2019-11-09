@@ -8,6 +8,13 @@
 
 	<title><?php bloginfo('name'); ?></title>
 
+	<style>
+		@font-face {
+		  font-family: 'Gotham Black';
+		  src: url('<?php bloginfo('template_url'); ?>/fonts/gotham-black.otf') format('opentype');
+		}
+	</style>
+
 	<?php wp_head(); ?>
 
 </head>
@@ -24,7 +31,7 @@
 				if (has_nav_menu('top-menu')) {
 
 					wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'mobile-top-menu-class'));
-				
+
 				} else {
 
 					echo "Please select a top menu through the dashboard";
@@ -39,15 +46,15 @@
 
 				<div class="col-9 col-md-3">
 
-					<?php 
+					<?php
 						if (get_header_image() == '') { ?>
 
 							<h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name'); ?></a></h1>
-							
+
 				  	<?php } else { ?>
-							
+
 							<a href="<?php echo get_home_url();?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
-					
+
 					<?php } ?>
 
 				</div>
