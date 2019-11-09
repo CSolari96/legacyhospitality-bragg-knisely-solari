@@ -110,7 +110,7 @@ header img {
 }
 /* End Navigation */
 
-/*********************HOME PAGE STYLING**********************/
+/*********************ABOUT PAGE STYLING**********************/
 .widget-about-legacy {
   margin: 2rem 0;
 }
@@ -147,13 +147,16 @@ h1 {
 }
 
 .top-bottom-space {
-  padding: 10% 0;
+  padding: 5% 0 10% 0;
 }
 
 .widget-title-what-we-offer {
   text-align: right;
 }
 
+.what-we-offer-title {
+    font-size: 4rem;
+}
 
 /*********************POST STYLING**********************/
 .jumbotron {
