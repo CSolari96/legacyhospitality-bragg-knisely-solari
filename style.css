@@ -20,11 +20,6 @@
 /*********************IMPORT FONTS**********************/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-@font-face {
-  font-family: 'Gotham Black';
-  src: url('../fonts/gotham-black.otf') format('opentype');
-}
-
 /*********************UNIVERSAL STYLING**********************/
 
 body {
@@ -188,7 +183,7 @@ h1 {
 
 .jumbotron h1 {
   font-family: "Gotham Black", sans-serif;
-  font-size: 7rem;
+  font-size: 6rem;
   text-transform: uppercase;
   text-align: right;
   z-index: 10;
@@ -198,10 +193,17 @@ h1 {
   position: absolute;
   max-height: 528px;
   max-width: 528px;
-  top: -113%;
+  top: -120%;
   left: -18%;
   width: 55%;
   z-index: 1;
+}
+
+.post-content p {
+  width: 75%;
+  float: right;
+  line-height: 1.85rem;
+
 }
 
 

@@ -39,7 +39,7 @@
 <!--Content-->
     <div class="container">
       <div class="row">
-        <main class="col-md-12">
+        <main class="col-md-12 post-content">
 
               <?php the_content(); ?>
 
