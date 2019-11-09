@@ -111,10 +111,6 @@ header img {
 /* End Navigation */
 
 /*********************ABOUT PAGE STYLING**********************/
-.widget-about-legacy {
-  margin: 2rem 0;
-}
-
 #h1-monserret {
   color: #949293;
   font-size: 2rem;
@@ -152,6 +148,8 @@ h1 {
 .red-left-border {
   border-left: 1px solid #d90000;
   padding: 0 0 10% 0;
+  max-width: 1140px;
+  margin: auto;
 }
 
 .top-bottom-space {
@@ -361,6 +359,11 @@ footer {
   #h1-gotham {
     font-size: 5rem;
   }
+
+  .widget-hero-image {
+    width: 53%;
+    margin-bottom: -50px;
+  }
 }
 /* End Min 400 */
 
@@ -373,6 +376,12 @@ footer {
   #h1-gotham {
     font-size: 6rem;
   }
+
+  .widget-hero-image {
+    width: 63%;
+    top: -150px;
+    margin-bottom: -140px;
+  }
 }
 /* End Min 500 */
 
@@ -384,6 +393,10 @@ footer {
 
   #h1-gotham {
     font-size: 7rem;
+  }
+
+  .widget-hero-image {
+    margin-left: -55px;
   }
 }
 /* End Min 600 */
@@ -428,11 +441,34 @@ footer {
     font-size: 10rem;
   }
 
+  .widget-hero-image {
+    top: -180px;
+    margin-left: -150px;
+  }
+
+  .widget-hero-image img {
+    width: 75%;
+    
+  }
+
+  .widget-about-legacy {
+    width: 50%;
+    max-width: 600px;
+  }
+
   .contact-form {
     order: -1;
   }
 }
 /* End Min 768 */
+
+/* Media Query - Min 900px */
+@media (min-width: 900px) {
+  .widget-hero-image {
+    top: -250px
+  }
+}
+/* End Min 900 */
 
 /* Media Query - Min 1000px */
 @media (min-width: 1000px) {
