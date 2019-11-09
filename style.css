@@ -131,9 +131,17 @@ header img {
 }
 
 .widget-hero-image {
+  text-align: right;
+  margin-left: auto;
+  width: 43%;
   position: relative;
-  top: -20rem;
-  margin-bottom: -10rem;
+  top: -50px;
+  float: right;
+  padding-left: 3%;
+}
+
+.widget-about-legacy {
+  margin: 2%;
 }
 
 h1 {
@@ -143,7 +151,7 @@ h1 {
 
 .red-left-border {
   border-left: 1px solid #d90000;
-  padding: 0 10%;
+  padding: 0 0 10% 0;
 }
 
 .top-bottom-space {
