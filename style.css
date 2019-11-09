@@ -49,6 +49,13 @@ main {
 
 /*********************HEADER**********************/
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 header img {
   max-width: 200px;
   width: 100%;
@@ -109,6 +116,11 @@ header img {
   text-align: center;
 }
 /* End Navigation */
+
+#menu-top-menu-1{
+  display: flex;
+  justify-content: space-between;
+}
 
 /*********************ABOUT PAGE STYLING**********************/
 #h1-monserret {
@@ -448,7 +460,7 @@ footer {
 
   .widget-hero-image img {
     width: 75%;
-    
+
   }
 
   .widget-about-legacy {
