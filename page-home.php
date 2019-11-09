@@ -7,8 +7,8 @@ Template Post Type: page
  ?>
 
 <?php get_header(); ?>
-    <div class="video-container">
+    <main>
 
-    </div>
+    </main>
 
 <?php get_footer(); ?>
