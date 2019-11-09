@@ -85,16 +85,6 @@ function blank_widgets_init(){
 	));
 
 	register_sidebar(array(
-		'name' => ('About Legacy'),
-		'id'=> 'about-legacy',
-		'description' => 'About Widget area on the home page',
-		'before_widget' => '<div class="widget-about-legacy">',
-		'after_widget' => '</div>',
-		'before_title' => '<p class="about-us-widget-home">',
-		'after_title' => '</p>'
-	));
-
-	register_sidebar(array(
 		'name' => ('Title for What We Offer'),
 		'id'=> 'title-what-we-offer',
 		'description' => 'Title of what we offer Widget area on the home page',
