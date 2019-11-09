@@ -119,9 +119,8 @@ header img {
 /* End Navigation */
 
 #menu-top-menu-1{
-  display: flex;
-  justify-content: space-between;
   width: 70%;
+  float: right;
 }
 
 #menu-top-menu-1 a {
