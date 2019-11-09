@@ -17,11 +17,11 @@ Template Post Type: page
       
       </div>
         
-      <?php dynamic_sidebar('about-legacy'); ?>
+      <?php dynamic_sidebar('hero-image'); ?>
         
       <div class="container">
       
-        <?php dynamic_sidebar('hero-image'); ?>
+        <?php dynamic_sidebar('about-legacy'); ?>
       
       </div>
           
