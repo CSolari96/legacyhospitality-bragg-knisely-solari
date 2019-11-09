@@ -117,12 +117,12 @@ header img {
 
 #h1-monserret {
   color: #949293;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 #h1-gotham {
-  font-weight: bold;
-  font-size: 10rem;
+  font-size: 4rem;
+  font-family: "Gotham Black", sans-serif;
   letter-spacing: 5px;
 }
 
@@ -344,6 +344,42 @@ footer {
   margin: 15px 0;
 }
 
+/* Media Query - Min 400px */
+@media (min-width: 400px) {
+  #h1-monserret {
+    font-size: 2.5rem;
+  }
+
+  #h1-gotham {
+    font-size: 5rem;
+  }
+}
+/* End Min 400 */
+
+/* Media Query - Min 500px */
+@media (min-width: 500px) {
+  #h1-monserret {
+    font-size: 3rem;
+  }
+
+  #h1-gotham {
+    font-size: 6rem;
+  }
+}
+/* End Min 500 */
+
+/* Media Query - Min 600px */
+@media (min-width: 600px) {
+  #h1-monserret {
+    font-size: 3.5rem;
+  }
+
+  #h1-gotham {
+    font-size: 7rem;
+  }
+}
+/* End Min 600 */
+
 /* Media Query - Min 768px */
 @media (min-width: 768px) {
   .mobile-menu, #open-mobile-menu {
@@ -374,6 +410,14 @@ footer {
   .top-menu-class ul li a:hover, .top-menu-class ul li a:hover {
     border-bottom: 2px solid #d90000;
     padding-bottom: 5%;
+  }
+
+  #h1-monserret {
+    font-size: 4rem;
+  }
+
+  #h1-gotham {
+    font-size: 10rem;
   }
 
   .contact-form {
