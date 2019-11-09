@@ -59,7 +59,7 @@
 
 				</div>
 
-				<div class="col-3 col-md-9" id="top-menu">
+				<div class="col-3 col-md-9 d-flex justify-content-between" id="top-menu">
 
 					<span id="open-mobile-menu" class="open-menu">&#9776;</span>
 
