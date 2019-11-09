@@ -52,14 +52,13 @@ main {
 header{
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 
 header img {
   max-width: 200px;
-  width: 100%;
+  width: 75%;
   object-fit: contain;
 }
 
