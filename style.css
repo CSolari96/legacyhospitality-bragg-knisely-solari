@@ -208,9 +208,37 @@ h1 {
 
 
 /*********************PROJECTS STYLING**********************/
-.project-buttons {
-  margin-bottom: 5%;
+.project-container {
+  position: relative;
+  width: 100%;
+  display:block;
 }
+
+.project-container img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  display:block;
+}
+
+.project-container h1 {
+  width: 100%;
+  padding: 0 5%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.project-container h1 a{
+  color: white;
+  font-family: "Gotham Black", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px black;
+}
+
 
 /*********************CONTACT STYLING**********************/
 .contact-form {
