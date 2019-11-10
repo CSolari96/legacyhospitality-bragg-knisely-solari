@@ -7,7 +7,7 @@ Template Post Type: page
  ?>
 
 <?php get_header(); ?>
-    <main>
+    <main class="home-page">
 
     </main>
 
