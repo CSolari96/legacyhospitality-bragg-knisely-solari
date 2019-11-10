@@ -364,7 +364,7 @@ h1 {
 .cannot-find-page h2 {
   color: #949293;
   font-size: 3rem;
-  padding: 5% 0;
+  padding: 2% 0;
 }
 
 .cannot-find-page a:link, .cannot-find-page a:visited {
@@ -373,6 +373,13 @@ h1 {
 
 .cannot-find-page a:hover, .cannot-find-page a:active {
   color: #949293;
+}
+
+.cannot-find-page img {
+  width: 100%;
+  max-width: 1140px;
+  display: block;
+  margin: auto;
 }
 
 /*********************FOOTER STYLING**********************/
