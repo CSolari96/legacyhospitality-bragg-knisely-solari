@@ -88,7 +88,7 @@ function blank_widgets_init(){
 		'name' => ('Title for What We Offer'),
 		'id'=> 'title-what-we-offer',
 		'description' => 'Title of what we offer Widget area on the home page',
-		'before_widget' => '<div class="widget-what-we-offer">',
+		'before_widget' => '<div class="widget-title-what-we-offer">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="title-what-we-offer-widget-home">',
 		'after_title' => '</h3>'
@@ -98,7 +98,7 @@ function blank_widgets_init(){
 		'name' => ('What We Offer'),
 		'id'=> 'what-we-offer',
 		'description' => 'What we offer Widget area on the home page',
-		'before_widget' => '<div class="widget-title-what-we-offer">',
+		'before_widget' => '<div class="widget-what-we-offer">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="what-we-offer-widget-home">',
 		'after_title' => '</h3>'
