@@ -19,7 +19,7 @@ Template Post Type: page
         
       <?php dynamic_sidebar('hero-image'); ?>
         
-      <div class="container">
+      <div class="container about-legacy">
       
         <?php
           if(have_posts()){
