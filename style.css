@@ -176,15 +176,20 @@ h1 {
 }
 
 .top-bottom-space {
-  padding: 5% 0 10% 0;
+  padding: 5% 0;
+  max-width: 1140px;
+  margin: auto;
 }
 
 .widget-what-we-offer {
   text-align: right;
+  position: relative;
+  top: -50px;
 }
 
 .what-we-offer-title {
-    font-size: 4rem;
+    font-size: 2.5rem;
+    padding-left: 10%;
 }
 
 /*********************POST STYLING**********************/
@@ -388,6 +393,14 @@ footer {
     width: 53%;
     margin-bottom: -50px;
   }
+
+  .what-we-offer-title {
+    font-size: 3rem;
+  }
+
+  .widget-what-we-offer {
+    top: -75px;
+  }
 }
 /* End Min 400 */
 
@@ -405,6 +418,10 @@ footer {
     width: 63%;
     top: -150px;
     margin-bottom: -140px;
+  }
+
+  .what-we-offer-title {
+    font-size: 4rem;
   }
 }
 /* End Min 500 */
@@ -480,6 +497,16 @@ footer {
     max-width: 600px;
   }
 
+  .top-bottom-space {
+    margin-bottom: -100px;
+  }
+
+  .widget-what-we-offer {
+    top: -150px;
+    width: 80%;
+    margin-left: auto;
+  }
+
   .contact-form {
     order: -1;
   }
@@ -491,6 +518,10 @@ footer {
   .widget-hero-image {
     top: -250px
   }
+
+  .what-we-offer-title {
+    padding-left: 15%;
+  }
 }
 /* End Min 900 */
 
@@ -500,17 +531,17 @@ footer {
     font-size: 2rem;
   }
 
+  .top-bottom-space {
+    margin-bottom: -300px;
+  }
+
   .what-we-offer-title {
     font-size: 5rem;
-    padding-left: 15%;
+    padding-left: 5%;
   }
 
   .widget-what-we-offer {
-    text-align: right;
-    position: relative;
     top: -300px;
-    width: 80%;
-    margin-left: auto;
   }
 }
 /* End Min 1000 */
