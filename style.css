@@ -159,10 +159,6 @@ main.home-page {
   padding-left: 3%;
 }
 
-.widget-about-legacy {
-  margin: 2%;
-}
-
 h1 {
   position: relative;
   z-index: 999;
@@ -492,9 +488,8 @@ footer {
 
   }
 
-  .widget-about-legacy {
+  .about-legacy p {
     width: 50%;
-    max-width: 600px;
   }
 
   .top-bottom-space {
