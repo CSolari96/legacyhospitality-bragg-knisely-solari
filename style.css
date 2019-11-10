@@ -225,8 +225,8 @@ h1 {
 .square{
   position: absolute;
   max-height: 528px;
-  max-width: 528px;
-  top: -120%;
+  min-height: 500px;
+  top: -13%;
   left: -18%;
   width: 55%;
   z-index: 1;
