@@ -58,9 +58,9 @@ function blank_widgets_init(){
 		'name' => ('Right Footer'),
 		'id'=> 'right-footer',
 		'description' => 'Right widget area in footer',
-		'before_widget' => '<div class="widget-footer">',
+		'before_widget' => '<div class="widget-right-footer">',
 		'after_widget' => '</div>',
-		'before_title' => '<p class="footer-widget-contact">',
+		'before_title' => '<p class="right-footer-widget-contact">',
 		'after_title' => '</p>'
 	));
 
