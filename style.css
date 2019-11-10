@@ -58,6 +58,7 @@ header{
 
 header img {
   max-width: 200px;
+  min-width: 190px;
   width: 75%;
   object-fit: contain;
 }
@@ -125,6 +126,12 @@ header img {
 #menu-top-menu-1 a {
   font-size: 1.5rem;
 }
+
+/*********************HOME STYLING**********************/
+main{
+  height: 100vh;
+}
+
 
 /*********************ABOUT PAGE STYLING**********************/
 #h1-monserret {
