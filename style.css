@@ -351,6 +351,15 @@ h1 {
   color: #949293;
 }
 
+.phone-number a:link, .phone-number a:visited {
+  color: #949293;
+}
+
+.phone-number a:hover, .phone-number a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 /*********************FOOTER STYLING**********************/
 footer {
   padding: 35px 0;
