@@ -179,7 +179,7 @@ h1 {
   padding: 5% 0 10% 0;
 }
 
-.widget-title-what-we-offer {
+.widget-what-we-offer {
   text-align: right;
 }
 
@@ -505,7 +505,7 @@ footer {
     padding-left: 15%;
   }
 
-  .widget-title-what-we-offer {
+  .widget-what-we-offer {
     text-align: right;
     position: relative;
     top: -300px;
