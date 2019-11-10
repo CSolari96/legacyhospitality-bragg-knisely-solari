@@ -362,7 +362,17 @@ h1 {
 
 /*********************404 PAGE  STYLING**********************/
 .cannot-find-page h2 {
-  color: #d90000;
+  color: #949293;
+  font-size: 3rem;
+  padding: 5% 0;
+}
+
+.cannot-find-page a:link, .cannot-find-page a:visited {
+  color: #d90000; 
+}
+
+.cannot-find-page a:hover, .cannot-find-page a:active {
+  color: #949293;
 }
 
 /*********************FOOTER STYLING**********************/
