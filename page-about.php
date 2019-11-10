@@ -14,8 +14,6 @@ Template Post Type: page
       <div class="container">
 
         <?php dynamic_sidebar('company-motto'); ?>
-
-        <!--<h1 class= "knowledge-power-title"><span id="h1-monserret">KNOWLEDGE <span class="red">+</span><br /> PASSION <span class="red">=</span></span><br /><span id="h1-gotham">POWER</span></h1>-->
       
       </div>
         
