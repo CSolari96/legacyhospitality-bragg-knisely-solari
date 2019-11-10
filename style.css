@@ -129,7 +129,7 @@ header img {
 
 /*********************HOME STYLING**********************/
 main.home-page {
-  height: 90vh;
+  height: 100vh;
 }
 
 
@@ -230,6 +230,7 @@ h1 {
   left: -18%;
   width: 55%;
   z-index: 1;
+  opacity: 1;
 }
 
 .post-content p {
@@ -238,6 +239,7 @@ h1 {
   line-height: 1.85rem;
 
 }
+
 
 
 /*********************PROJECTS STYLING**********************/
@@ -368,7 +370,7 @@ h1 {
 }
 
 .cannot-find-page a:link, .cannot-find-page a:visited {
-  color: #d90000; 
+  color: #d90000;
 }
 
 .cannot-find-page a:hover, .cannot-find-page a:active {
@@ -390,7 +392,7 @@ footer {
 
 .left-footer-section {
   order: 2;
-  padding: 2% 0; 
+  padding: 2% 0;
 }
 
 .middle-footer-section {
