@@ -6,8 +6,6 @@
       <p>We appreciate your business, but that link no longer exists. Please head back to our <a href="<?php echo home_url('/');?>">homepage</a> to learn more about Legacy Hospitality.</p>
       <img src="<?php echo get_template_directory_uri() . '/img/sorry-pencil.jpg'?>" alt="Error message" />
     </main>
-
-  <?php get_footer(); ?>
-
   </div>
 </div>
+  <?php get_footer(); ?>
