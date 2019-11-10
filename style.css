@@ -128,7 +128,7 @@ header img {
 }
 
 /*********************HOME STYLING**********************/
-.home-page main{
+main.home-page {
   height: 90vh;
 }
 
