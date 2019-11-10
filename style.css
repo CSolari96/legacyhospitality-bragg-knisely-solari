@@ -371,8 +371,32 @@ footer {
   background-color: #000000;
 }
 
+.left-footer-section {
+  order: 2;
+  padding: 5% 0; 
+}
+
+.middle-footer-section {
+  order: 1;
+}
+
+.right-footer-section {
+  order: 3;
+  text-align: center;
+  padding: 5% 0;
+}
+
+#menu-left-footer {
+  padding: 0;
+}
+
+.footer-left-class {
+  text-align: center;
+}
+
 .footer-left-class li {
   list-style-type: none;
+  padding: 2% 0;
 }
 
 .footer-left-class a {
@@ -386,7 +410,13 @@ footer {
 
 .widget-footer img {
   border-top: 1px solid #d90000;
-  margin: 15px 0;
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+}
+
+.widget-right-footer p {
+  padding: 2% 0;
 }
 
 /* Media Query - Min 400px */
