@@ -360,6 +360,11 @@ h1 {
   color: #ffffff;
 }
 
+/*********************404 PAGE  STYLING**********************/
+.cannot-find-page h2 {
+  color: #d90000;
+}
+
 /*********************FOOTER STYLING**********************/
 footer {
   padding: 35px 0;
