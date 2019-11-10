@@ -134,12 +134,12 @@ main.home-page {
 
 
 /*********************ABOUT PAGE STYLING**********************/
-#h1-monserret {
+.h1-montserrat {
   color: #949293;
   font-size: 2rem;
 }
 
-#h1-gotham {
+.h1-gotham {
   font-size: 4rem;
   font-family: "Gotham Black", sans-serif;
   letter-spacing: 5px;
@@ -377,11 +377,11 @@ footer {
 
 /* Media Query - Min 400px */
 @media (min-width: 400px) {
-  #h1-monserret {
+  .h1-montserrat {
     font-size: 2.5rem;
   }
 
-  #h1-gotham {
+  .h1-gotham {
     font-size: 5rem;
   }
 
@@ -402,11 +402,11 @@ footer {
 
 /* Media Query - Min 500px */
 @media (min-width: 500px) {
-  #h1-monserret {
+  .h1-montserrat {
     font-size: 3rem;
   }
 
-  #h1-gotham {
+  .h1-gotham {
     font-size: 6rem;
   }
 
@@ -424,11 +424,11 @@ footer {
 
 /* Media Query - Min 600px */
 @media (min-width: 600px) {
-  #h1-monserret {
+  .h1-montserrat {
     font-size: 3.5rem;
   }
 
-  #h1-gotham {
+  .h1-gotham {
     font-size: 7rem;
   }
 
@@ -470,11 +470,11 @@ footer {
     padding-bottom: 5%;
   }
 
-  #h1-monserret {
+  .h1-montserrat {
     font-size: 4rem;
   }
 
-  #h1-gotham {
+  .h1-gotham {
     font-size: 10rem;
   }
 
