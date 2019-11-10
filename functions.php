@@ -75,9 +75,19 @@ function blank_widgets_init(){
 	));
 
 	register_sidebar(array(
+		'name' => ('Company Motto'),
+		'id'=> 'company-motto',
+		'description' => 'Company motto heading on about page',
+		'before_widget' => '<div class="knowledge-power-title">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="company-motto-widget-title">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
 		'name' => ('Hero Image'),
 		'id'=> 'hero-image',
-		'description' => 'Hero image of Tony on the home page',
+		'description' => 'Hero image of Tony on the about page',
 		'before_widget' => '<div class="widget-hero-image">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="hero-image-widget-title">',
@@ -87,7 +97,7 @@ function blank_widgets_init(){
 	register_sidebar(array(
 		'name' => ('Title for What We Offer'),
 		'id'=> 'title-what-we-offer',
-		'description' => 'Title of what we offer Widget area on the home page',
+		'description' => 'Title of what we offer Widget area on the about page',
 		'before_widget' => '<div class="widget-title-what-we-offer">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="title-what-we-offer-widget-home">',
@@ -97,7 +107,7 @@ function blank_widgets_init(){
 	register_sidebar(array(
 		'name' => ('What We Offer'),
 		'id'=> 'what-we-offer',
-		'description' => 'What we offer Widget area on the home page',
+		'description' => 'What we offer Widget area on the about page',
 		'before_widget' => '<div class="widget-what-we-offer">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="what-we-offer-widget-home">',
