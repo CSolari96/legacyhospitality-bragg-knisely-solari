@@ -39,7 +39,49 @@ Template Post Type: page
           
         <?php dynamic_sidebar('title-what-we-offer'); ?>
   
-        <?php dynamic_sidebar('what-we-offer'); ?>
+        <div class="what-we-offer">
+
+          <div class="diamond-grid-row">
+
+            <div class="diamond diamond3 light-gray-bkg">
+              <div class="content">Property Reviews</div>
+            </div>
+
+            <div class="diamond diamond5 red-bkg">
+              <div class="content">Financial Analysis</div>
+            </div>
+            
+            <div class="diamond diamond6 light-gray-bkg"></div>
+
+          </div>
+
+          <div class="diamond-grid-row">
+
+            <div class="diamond diamond1 gray-bkg">
+              <div class="content">Training</div>
+            </div>
+            
+            <div class="diamond diamond2 red-bkg">
+              <div class="content">Development</div>
+            </div>
+            
+            <div class="diamond diamond3 gray-bkg">
+              <div class="content">Design</div>
+            </div>
+            
+            <div class="diamond diamond4 gray-bkg">
+              <div class="content">Motivational Speaking</div>
+            </div>
+
+            <div class="diamond diamond5 light-gray-bkg">
+              <div class="content">...and more!</div>
+            </div>
+            
+            <div class="diamond diamond6 gray-bkg"></div>
+          
+          </div>
+
+        </div>
                 
     </section>
 
