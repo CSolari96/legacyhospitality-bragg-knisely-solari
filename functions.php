@@ -105,15 +105,74 @@ function blank_widgets_init(){
 	));
 
 	register_sidebar(array(
-		'name' => ('What We Offer'),
-		'id'=> 'what-we-offer',
-		'description' => 'What we offer Widget area on the about page',
-		'before_widget' => '<div class="widget-what-we-offer">',
+		'name' => ('What We Offer Service 1'),
+		'id'=> 'service-1',
+		'description' => 'What we offer service widget area on the about page',
+		'before_widget' => '<div class="content">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="what-we-offer-widget-home">',
 		'after_title' => '</h3>'
 	));
 
+	register_sidebar(array(
+		'name' => ('What We Offer Service 2'),
+		'id'=> 'service-2',
+		'description' => 'What we offer service widget area on the about page',
+		'before_widget' => '<div class="content">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="what-we-offer-widget-home">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
+		'name' => ('What We Offer Service 3'),
+		'id'=> 'service-3',
+		'description' => 'What we offer service widget area on the about page',
+		'before_widget' => '<div class="content">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="what-we-offer-widget-home">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
+		'name' => ('What We Offer Service 4'),
+		'id'=> 'service-4',
+		'description' => 'What we offer service widget area on the about page',
+		'before_widget' => '<div class="content">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="what-we-offer-widget-home">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
+		'name' => ('What We Offer Service 5'),
+		'id'=> 'service-5',
+		'description' => 'What we offer service widget area on the about page',
+		'before_widget' => '<div class="content">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="what-we-offer-widget-home">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
+		'name' => ('What We Offer Service 6'),
+		'id'=> 'service-6',
+		'description' => 'What we offer service widget area on the about page',
+		'before_widget' => '<div class="content">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="what-we-offer-widget-home">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
+		'name' => ('What We Offer Service 7'),
+		'id'=> 'service-7',
+		'description' => 'What we offer service widget area on the about page',
+		'before_widget' => '<div class="content">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="what-we-offer-widget-home">',
+		'after_title' => '</h3>'
+	));
 
 	register_sidebar(array(
 		'name' => ('Contact Form'),

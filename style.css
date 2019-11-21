@@ -177,22 +177,79 @@ h1 {
   margin: auto;
 }
 
-.widget-what-we-offer {
-  text-align: right;
-  position: relative;
-  top: -50px;
-}
-
-.what-we-offer {
-  width: 50%;
-}
-
-
-
 .what-we-offer-title {
     font-size: 2.5rem;
     padding-left: 10%;
 }
+
+.what-we-offer {
+  width: 75%;
+  margin-left: auto;
+  position: relative;
+  top: -300px;
+}
+
+.red-bkg {
+  background-color: #d90000;
+}
+
+.gray-bkg {
+  background-color: #626060;
+}
+
+.light-gray-bkg {
+  background-color: #949293;
+}
+
+.diamond-grid-row {
+  padding-top: 22%;
+  padding-bottom: 10%;
+}
+
+.diamond {
+  position: relative;
+  width: 20.5%;
+  padding-bottom: 20.5%;
+  margin-right: -100%;
+  float: left;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.diamond2 {
+  margin-top: -15.75%;
+  margin-left: 15.75%;
+}
+
+.diamond3 {
+  margin-left: 31.5%;
+}
+
+.diamond4 {
+  margin-top: -15.75%;
+  margin-left: 47.25%;
+}
+
+.diamond5 {
+  margin-left: 63%;
+}
+
+.diamond6 {
+  margin-top: -15.75%;
+  margin-left: 78.75%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: rotate(-45deg);
+}
+
 
 /*********************POST STYLING**********************/
 .jumbotron {

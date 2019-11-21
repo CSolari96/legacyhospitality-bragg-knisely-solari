@@ -44,11 +44,11 @@ Template Post Type: page
           <div class="diamond-grid-row">
 
             <div class="diamond diamond3 light-gray-bkg">
-              <div class="content">Property Reviews</div>
+              <?php dynamic_sidebar('service-1'); ?>
             </div>
 
             <div class="diamond diamond5 red-bkg">
-              <div class="content">Financial Analysis</div>
+              <?php dynamic_sidebar('service-2'); ?>
             </div>
             
             <div class="diamond diamond6 light-gray-bkg"></div>
@@ -58,23 +58,23 @@ Template Post Type: page
           <div class="diamond-grid-row">
 
             <div class="diamond diamond1 gray-bkg">
-              <div class="content">Training</div>
+              <?php dynamic_sidebar('service-3'); ?>
             </div>
             
             <div class="diamond diamond2 red-bkg">
-              <div class="content">Development</div>
+              <?php dynamic_sidebar('service-4'); ?>
             </div>
             
             <div class="diamond diamond3 gray-bkg">
-              <div class="content">Design</div>
+              <?php dynamic_sidebar('service-5'); ?>
             </div>
             
             <div class="diamond diamond4 gray-bkg">
-              <div class="content">Motivational Speaking</div>
+              <?php dynamic_sidebar('service-6'); ?>
             </div>
 
             <div class="diamond diamond5 light-gray-bkg">
-              <div class="content">...and more!</div>
+              <?php dynamic_sidebar('service-7'); ?>
             </div>
             
             <div class="diamond diamond6 gray-bkg"></div>
