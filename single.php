@@ -44,7 +44,6 @@
               <?php the_content(); ?>
               <p class="post-info"><?php echo "Published: " . get_the_date(); ?></p>
               <p>Category: <?php the_category(); ?></p> 
-              <p class="post-info"><?php echo "Category: " . the_category(); ?></p>
 
         </main>
       </div>

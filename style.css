@@ -338,6 +338,17 @@ h1 {
   text-shadow: 0px 0px 10px black;
 }
 
+/*********************ARCHIVE STYLING**********************/
+
+.individual-post:nth-child(odd) {
+  background-color: #2d2d2e;
+  padding: 3% 0;
+}
+
+.archive-title a:link {
+  color: #d90000;
+}
+
 
 /*********************CONTACT STYLING**********************/
 .contact-form {
