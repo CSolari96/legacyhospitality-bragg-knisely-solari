@@ -342,7 +342,10 @@ h1 {
 
 .individual-posts:nth-child(odd) {
   background-color: #2d2d2e;
-  padding: 3% 0;
+}
+
+.individual-posts {
+    padding: 3% 0;
 }
 
 .archive-title a:link {
