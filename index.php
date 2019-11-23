@@ -10,6 +10,7 @@
 
               <h2 class="entry-title"><?php the_title(); ?></h2>
               <p class="post-info"><?php echo "Published: " . get_the_date(); ?></p>
+              <p>Category: <?php the_category(); ?></p>
 
               <div class-"post-featured-image">
                 <?php the_post_thumbnail('large'); ?>
