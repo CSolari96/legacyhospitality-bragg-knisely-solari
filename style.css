@@ -346,12 +346,20 @@ h1 {
 
 .individual-posts {
     padding: 3% 0;
-    padding-left: 0 !important; 
+    padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
 .archive-title a:link, a:visited {
   color: #d90000;
+}
+
+.padding-archive-posts {
+  padding: 0 15px;
+}
+
+.archive-read-more a:link, a:visited {
+  color: #949293;
 }
 
 
