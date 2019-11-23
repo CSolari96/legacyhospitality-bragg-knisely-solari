@@ -42,6 +42,8 @@
         <main class="col-md-12 post-content">
 
               <?php the_content(); ?>
+              <p class="post-info"><?php echo "Published: " . get_the_date(); ?></p>
+              <p><?php echo "Category: " . the_category(); ?>
 
         </main>
       </div>
