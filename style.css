@@ -346,11 +346,14 @@ h1 {
 
 .individual-posts {
     padding: 3% 0;
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
 }
 
-.archive-title a:link {
+.archive-title a:link, a:visited {
   color: #d90000;
 }
+
 
 
 /*********************CONTACT STYLING**********************/
