@@ -340,7 +340,7 @@ h1 {
 
 /*********************ARCHIVE STYLING**********************/
 
-.individual-post:nth-child(odd) {
+.individual-posts:nth-child(odd) {
   background-color: #2d2d2e;
   padding: 3% 0;
 }
