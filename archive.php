@@ -22,7 +22,7 @@ get_header();
           while(have_posts()){
             the_post(); ?>
             <div class="col-md-3 archive-pictures">
-              <?php the_post_thumbnail('small'); ?>
+              <?php the_post_thumbnail('thumbnail'); ?>
             </div>
             <div class="col-md-8 individual-posts">
               <div class="padding-archive-posts">
