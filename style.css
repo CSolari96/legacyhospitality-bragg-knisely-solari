@@ -658,7 +658,7 @@ footer {
   .top-menu-class ul {
     display: flex;
     justify-content: space-around;
-    padding: 5% 0;
+    padding: 10% 0;
   }
 
   .top-menu-class ul li {
