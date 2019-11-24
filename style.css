@@ -338,7 +338,7 @@ h1 {
 
 /*********************ARCHIVE STYLING**********************/
 
-.individual-posts:nth-child(odd) {
+.seperate-post-by-Color:nth-child(odd) {
   background-color: #2d2d2e;
 }
 
@@ -373,7 +373,7 @@ h1 {
 }
 
 .archive-pictures img {
-  width: 100%;
+  display: inline;
 }
 
 .post-categories p,  p.post-info, .post-categories li {
