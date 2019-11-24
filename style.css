@@ -374,6 +374,7 @@ h1 {
 
 .archive-pictures img {
   display: inline;
+  vertical-align: top !important;
 }
 
 .post-categories p,  p.post-info, .post-categories li {
@@ -390,6 +391,14 @@ p.post-info {
 
 p.post-info a:link, a:visited{
   color: #d90000;
+}
+
+.col-md-3.archive-pictures {
+    display: inline !important;
+}
+
+.col-md-9.individual-posts {
+    display: inline-block !important;
 }
 
 
