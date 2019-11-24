@@ -9,7 +9,11 @@
             <div class="col-md-12">
 
               <h2 class="entry-title"><?php the_title(); ?></h2>
-              <p class="post-info"><?php echo "Published: " . get_the_date(); ?></p>
+
+              <?php
+                $archive_year = get_the_time('Y');
+               ?>
+              <p class="post-info"> Published: <a href="<?php echo get_day_link($archive_year);?>"><?php echo get_the_date(); ?></a>
               <p>Category: <?php the_category(); ?></p>
 
               <div class-"post-featured-image">

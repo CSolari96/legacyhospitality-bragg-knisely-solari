@@ -43,7 +43,7 @@
 
               <?php the_content(); ?>
               <?php
-                $archive_year= get_the_time('Y');
+                $archive_year = get_the_time('Y');
                ?>
               <p class="post-info"> Published: <a href="<?php echo get_day_link($archive_year);?>"><?php echo get_the_date(); ?></a>
               <p>Category: <?php the_category(); ?></p>
