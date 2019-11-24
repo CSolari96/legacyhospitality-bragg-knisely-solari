@@ -649,8 +649,7 @@ footer {
   }
 
   .top-menu-class ul li {
-    justify-content: space-around;
-    padding: 5% 0;
+    padding: 5% 10%;
   }
 
   /*.top-menu-class ul {
