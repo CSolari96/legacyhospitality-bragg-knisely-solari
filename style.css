@@ -370,7 +370,8 @@ h1 {
 .top-title-archive {
   text-align: right;
   font-family: 'Gotham Black', sans-serif;
-  font: 5rem;
+  font-size: 5rem;
+  padding-left: 30px; 
 }
 
 
