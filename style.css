@@ -384,7 +384,7 @@ h1 {
   vertical-align: super;
 }
 
-.post-categories p,  p.post-info, .post-categories li {
+.post-categories p,  p.post-info, .post-categories li, .post-categories ul, .post-categories a:link {
   display: inline !important;
   list-style-type: none;
 }
