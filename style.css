@@ -296,13 +296,15 @@ h1 {
   opacity: 1;
 }
 
-.post-content.category-post {
+.post-content {
   width: 75%;
   float: right;
   line-height: 1.85rem;
-
 }
 
+.no-float-info {
+  float: none !important;
+}
 
 
 /*********************PROJECTS STYLING**********************/
