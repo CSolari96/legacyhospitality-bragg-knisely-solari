@@ -377,13 +377,14 @@ h1 {
   max-width: 100px;
 }
 
-.post-categories p, p.category-post, p.post-info, .post-categories li {
+.post-categories p,  p.post-info, .post-categories li {
   display: inline !important;
   list-style-type: none;
 }
 
-p.post-info, p.category-post {
+p.post-info {
   display: inline !important;
+  font-size: 10px !important; 
 }
 
 
