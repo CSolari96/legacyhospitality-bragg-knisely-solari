@@ -5,7 +5,7 @@ get_header();
 <div class="archive-page">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 no-padding-archive">
+      <div class="no-padding-archive">
         <h2 class="top-title-archive"><?php
           if(is_category()){
             single_cat_title();
@@ -21,7 +21,7 @@ get_header();
         <?php if(have_posts()){
           while(have_posts()){
             the_post(); ?>
-            <div class="col-md-3 archive-pictures">
+            <div class="col-md-4 archive-pictures">
               <?php the_post_thumbnail('thumbnail'); ?>
             </div>
             <div class="col-md-8 individual-posts">
