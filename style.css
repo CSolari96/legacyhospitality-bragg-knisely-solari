@@ -646,17 +646,9 @@ footer {
 
   .top-menu-class ul {
     display: flex;
-  }
-
-  .top-menu-class ul li {
-    padding: 5% 15px;
-  }
-
-  /*.top-menu-class ul {
-    display: flex;
     justify-content: space-around;
     padding: 5% 0;
-  } */
+  } 
 
   .top-menu-class ul li {
     list-style-type: none;
