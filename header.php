@@ -40,11 +40,11 @@
 
 		</nav>
 
-		<div class="container header-row">
+		<div class="container d-flex">
 
 			<div class="row">
 
-				<div class="col-9 col-md-3 logo">
+				<div class="col-9 col-md-3 d-flex align-items-center">
 
 					<?php
 						if (get_header_image() == '') { ?>
@@ -59,7 +59,7 @@
 
 				</div>
 
-				<div class="col-3 col-md-9 justify-content-between" id="top-menu">
+				<div class="col-3 col-md-9 d-flex align-items-center justify-content-between" id="top-menu">
 
 					<span id="open-mobile-menu" class="open-menu">&#9776;</span>
 

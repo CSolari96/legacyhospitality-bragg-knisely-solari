@@ -644,14 +644,6 @@ footer {
     display: block;
   }
 
-  header img {
-    align-items: center !important;
-  }
-
-  #menu-top-menu-1 {
-    align-items: center !important;
-  }
-
   .top-menu-class ul {
     display: flex;
     justify-content: space-around;
