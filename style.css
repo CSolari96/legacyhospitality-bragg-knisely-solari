@@ -302,10 +302,6 @@ h1 {
   line-height: 1.85rem;
 }
 
-.post-content p.post-info, p.category-post {
-  float: none !important;
-}
-
 
 /*********************PROJECTS STYLING**********************/
 .project-container {
@@ -381,7 +377,7 @@ h1 {
   max-width: 100px;
 }
 
-.post-categories, .category-post {
+.post-categories, .category-post, .post-categories ul li {
   display: inline-block;
   list-style-type: none;
 }
