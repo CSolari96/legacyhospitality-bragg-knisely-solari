@@ -6,6 +6,17 @@ get_header();
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 no-padding-archive">
+        <h2><?php
+          if(is_category()){
+            single_cat_title();
+          }elseif(is_tag()){
+            single_tag_title();
+          }elseif(is_year()){
+            echo "Yearly Archives: " . get_the_date('Y');
+          }else{
+            echo "Archives";
+          }
+         ?>
         <?php if(have_posts()){
           while(have_posts()){
             the_post(); ?>
