@@ -649,11 +649,11 @@ footer {
   }
 
   .logo img {
-    align-items: center;
+    align-items: center !important;
   }
 
   #top-menu {
-    align-items: center; 
+    align-items: center !important;
   }
 
   .top-menu-class ul {
