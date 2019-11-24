@@ -382,8 +382,8 @@ h1 {
   list-style-type: none;
 }
 
-.no-float-info {
-
+p.post-info, p.category-post {
+  display: inline !important; 
 }
 
 
