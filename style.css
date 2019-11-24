@@ -374,7 +374,7 @@ h1 {
 
 .archive-pictures img {
   display: inline;
-  vertical-align: top !important;
+  vertical-align: super;
 }
 
 .post-categories p,  p.post-info, .post-categories li {
