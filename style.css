@@ -371,7 +371,12 @@ h1 {
   text-align: right;
   font-family: 'Gotham Black', sans-serif;
   font-size: 5rem;
-  padding-right: 30px; 
+  padding-right: 30px;
+}
+
+.archive-pictures {
+  width: 100%;
+  max-width: 100px; 
 }
 
 
