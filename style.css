@@ -378,7 +378,7 @@ h1 {
 }
 
 .post-categories, .category-post, .post-info, .post-categories li {
-  display: inline;
+  display: inline !important;
   list-style-type: none;
 }
 
