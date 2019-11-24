@@ -338,7 +338,7 @@ h1 {
 
 /*********************ARCHIVE STYLING**********************/
 
-.seperate-post-by-Color:nth-child(odd) {
+.seperate-post-by-color:nth-child(odd) {
   background-color: #2d2d2e;
 }
 

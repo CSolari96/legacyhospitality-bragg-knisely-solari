@@ -21,7 +21,7 @@ get_header();
         <?php if(have_posts()){
           while(have_posts()){
             the_post(); ?>
-            <div class-"row seperate-post-by-color">
+            <div class="row seperate-post-by-color">
               <div class="col-md-3 archive-pictures">
                 <?php the_post_thumbnail('thumbnail'); ?>
               </div>
