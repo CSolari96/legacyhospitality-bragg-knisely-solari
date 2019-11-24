@@ -753,6 +753,10 @@ footer {
     font-size: 2rem;
   }
 
+  header img {
+    margin-top: 5% 0;
+  }
+
   .top-bottom-space {
     margin-bottom: -300px;
   }
