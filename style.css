@@ -402,6 +402,7 @@ p.post-info a:link, a:visited{
 
 ul.post-categories li a:link, a:visited{
   color: #d90000;
+  display: inline !important; 
 }
 
 .col-md-3.archive-pictures {
