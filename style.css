@@ -644,11 +644,20 @@ footer {
     display: block;
   }
 
-  .top-menu-class ul {
+  .top-menu-class {
     display: flex;
+  }
+
+  .top-menu-class ul li {
     justify-content: space-around;
     padding: 5% 0;
   }
+
+  /*.top-menu-class ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+  } */
 
   .top-menu-class ul li {
     list-style-type: none;
