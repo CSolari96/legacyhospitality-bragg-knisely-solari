@@ -296,7 +296,7 @@ h1 {
   opacity: 1;
 }
 
-.post-content p {
+.post-content.category-post {
   width: 75%;
   float: right;
   line-height: 1.85rem;
