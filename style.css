@@ -379,7 +379,7 @@ h1 {
   max-width: 100px;
 }
 
-.post-categories {
+.post-categories, .category-post {
   display: inline-block;
   list-style-type: none;
 }
