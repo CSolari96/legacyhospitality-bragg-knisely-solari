@@ -299,7 +299,7 @@ h1 {
 .post-content p {
   width: 75%;
   float: right;
-  line-height: 1.85rem;
+  line-height: 2rem;
 }
 
 
@@ -383,7 +383,7 @@ h1 {
 }
 
 p.post-info, p.category-post {
-  display: inline !important; 
+  display: inline !important;
 }
 
 
