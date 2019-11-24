@@ -514,6 +514,7 @@ p.post-info a:link, a:visited{
 footer {
   padding: 2% 0 1% 0;
   background-color: #2D2D2E;
+  margin-top: 20px; 
 }
 
 .left-footer-section {
