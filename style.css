@@ -644,10 +644,6 @@ footer {
     display: block;
   }
 
-  .header-row {
-    display: flex;
-  }
-
   header img {
     align-items: center !important;
   }
