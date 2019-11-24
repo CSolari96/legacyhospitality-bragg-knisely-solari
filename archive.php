@@ -6,7 +6,7 @@ get_header();
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 no-padding-archive">
-        <h2 class="archive-title"><?php
+        <h2 class="top-title-archive"><?php
           if(is_category()){
             single_cat_title();
           }elseif(is_tag()){
