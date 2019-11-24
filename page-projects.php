@@ -31,7 +31,6 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
             </div>
           </div>
         </div>
-      </div>
 
     <?php endwhile; ?>
     <!-- end of the loop -->
