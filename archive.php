@@ -5,7 +5,7 @@ get_header();
 <div class="archive-page">
   <div class="container-fluid">
     <div class="row">
-      <div class="no-padding-archive">
+      <div class="col-md-12 no-padding-archive">
         <h2 class="top-title-archive"><?php
           if(is_category()){
             single_cat_title();
@@ -21,19 +21,21 @@ get_header();
         <?php if(have_posts()){
           while(have_posts()){
             the_post(); ?>
-            <div class="col-md-4 archive-pictures">
-              <?php the_post_thumbnail('thumbnail'); ?>
-            </div>
-            <div class="col-md-8 individual-posts">
-              <div class="padding-archive-posts">
-                <h3 class="archive-title"><a href="<?php the_permalink() ?>"><?php the_title();?></a></h3>
-                <p>Published on: <?php the_time('F Y');?></p>
-                <p><?php the_excerpt(); ?></p>
-                <div class="archive-read-more">
-                  <a href="<?php the_permalink() ?>">Read More</a>
+            <div class-"row">
+              <div class="col-md-4 archive-pictures">
+                <?php the_post_thumbnail('thumbnail'); ?>
+              </div>
+              <div class="col-md-8 individual-posts">
+                <div class="padding-archive-posts">
+                  <h3 class="archive-title"><a href="<?php the_permalink() ?>"><?php the_title();?></a></h3>
+                  <p>Published on: <?php the_time('F Y');?></p>
+                  <p><?php the_excerpt(); ?></p>
+                  <div class="archive-read-more">
+                    <a href="<?php the_permalink() ?>">Read More</a>
+                  </div>
                 </div>
               </div>
-            </div>
+          </div>
             <?php
           }// ends while loop
         } //ends if statement
