@@ -302,7 +302,7 @@ h1 {
   line-height: 1.85rem;
 }
 
-.no-float-info {
+.post-content p.post-info, p.category-post {
   float: none !important;
 }
 
