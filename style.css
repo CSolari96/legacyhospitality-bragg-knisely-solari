@@ -757,7 +757,7 @@ footer {
 }
 /* End Min 1000 */
 
-/* Media Query - Max 575px */
+/* Media Query - Max 575px 
 @media (max-width: 575px) {
   body {
     margin-left: 3%;
