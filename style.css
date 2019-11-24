@@ -648,7 +648,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 5% 0;
-  } 
+  }
 
   .top-menu-class ul li {
     list-style-type: none;
@@ -760,7 +760,7 @@ footer {
 /* Media Query - Max 575px */
 @media (max-width: 575px) {
   body {
-    padding-left: 3%;
+    margin-left: 3%;
   }
 }
 /* End Max 575 */
