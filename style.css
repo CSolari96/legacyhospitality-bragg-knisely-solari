@@ -384,7 +384,7 @@ h1 {
   vertical-align: super;
 }
 
-.post-categories p,  p.post-info, .post-categories li, .post-categories ul, .post-categories ul li a:link {
+.post-categories p,  p.post-info, .post-categories li, .post-categories ul {
   display: inline !important;
   list-style-type: none;
 }
@@ -397,6 +397,10 @@ p.post-info {
 }
 
 p.post-info a:link, a:visited{
+  color: #d90000;
+}
+
+ul.post-categories li a:link, a:visited{
   color: #d90000;
 }
 
