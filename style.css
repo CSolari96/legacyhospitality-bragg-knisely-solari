@@ -377,9 +377,13 @@ h1 {
   max-width: 100px;
 }
 
-.post-categories, .category-post, .post-categories li {
+.post-categories, .category-post, .post-info, .post-categories li {
   display: inline;
   list-style-type: none;
+}
+
+.no-float-info {
+
 }
 
 
