@@ -379,6 +379,10 @@ h1 {
   max-width: 100px;
 }
 
+.post-categories {
+  display: inline-block;
+  list-style-type: none;
+}
 
 
 /*********************CONTACT STYLING**********************/
