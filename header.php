@@ -42,9 +42,9 @@
 
 		<div class="container">
 
-			<div class="row">
+			<div class="row header-row">
 
-				<div class="col-9 col-md-3">
+				<div class="col-9 col-md-3 logo">
 
 					<?php
 						if (get_header_image() == '') { ?>
