@@ -40,9 +40,9 @@
 
 		</nav>
 
-		<div class="container">
+		<div class="container header-row">
 
-			<div class="row header-row">
+			<div class="row">
 
 				<div class="col-9 col-md-3 logo">
 
