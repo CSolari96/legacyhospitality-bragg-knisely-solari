@@ -23,6 +23,10 @@
 
 	<header>
 
+		<div class="container">
+
+			<div class="row">
+
 		<nav class="mobile-menu">
 
 			<p class="close-menu-container"><a href="javascript:void()" id="close-menu">&times;</a></p>
@@ -39,10 +43,6 @@
 			?>
 
 		</nav>
-
-		<div class="container">
-
-			<div class="row">
 
 				<div class="col-9 col-md-3">
 
