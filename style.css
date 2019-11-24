@@ -367,6 +367,12 @@ h1 {
   padding-left: 0px !important;
 }
 
+.archive-title {
+  text-align: right;
+  font-family: 'Gotham Black', sans-serif;
+  font: 5rem; 
+}
+
 
 
 /*********************CONTACT STYLING**********************/
