@@ -22,10 +22,10 @@ get_header();
           while(have_posts()){
             the_post(); ?>
             <div class-"row">
-              <div class="col-md-4 archive-pictures">
+              <div class="col-md-3 archive-pictures">
                 <?php the_post_thumbnail('thumbnail'); ?>
               </div>
-              <div class="col-md-8 individual-posts">
+              <div class="col-md-9 individual-posts">
                 <div class="padding-archive-posts">
                   <h3 class="archive-title"><a href="<?php the_permalink() ?>"><?php the_title();?></a></h3>
                   <p>Published on: <?php the_time('F Y');?></p>
