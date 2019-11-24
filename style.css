@@ -299,7 +299,7 @@ h1 {
 .post-content p {
   width: 75%;
   float: right;
-  line-height: 2rem;
+  line-height: 1.85rem;
 }
 
 
@@ -377,7 +377,7 @@ h1 {
   max-width: 100px;
 }
 
-.post-categories, .category-post, .post-info, .post-categories li {
+.post-categories p, p.category-post, p.post-info, .post-categories li {
   display: inline !important;
   list-style-type: none;
 }
