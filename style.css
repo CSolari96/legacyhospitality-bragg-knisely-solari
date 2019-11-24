@@ -318,6 +318,11 @@ h1 {
   margin: 2%;
 }
 
+.project-container {
+  padding-left: 0 !important;
+  padding-right:0 !important; 
+}
+
 .project-container h1 {
   width: 100%;
   padding: 0 5%;
@@ -757,7 +762,7 @@ footer {
 }
 /* End Min 1000 */
 
-/* Media Query - Max 575px 
+/* Media Query - Max 575px
 @media (max-width: 575px) {
   body {
     margin-left: 3%;
