@@ -660,6 +660,12 @@ footer {
     display: block;
   }
 
+  #top-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .top-menu-class ul {
     display: flex;
     justify-content: space-around;
