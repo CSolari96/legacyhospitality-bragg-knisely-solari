@@ -307,6 +307,14 @@ h1 {
 ul.post-categories {
     clear: both;
     float: right;
+    display: inline;
+}
+
+ul.post-categories li a {
+  display: inline !important;
+  font-size: 10px !important;
+  text-align: right;
+  font-style: italic;
 }
 
 
