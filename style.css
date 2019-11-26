@@ -307,7 +307,7 @@ h1 {
 ul.post-categories {
     clear: both;
     float: right;
-    display: inline;
+    display: inline !important;
 }
 
 ul.post-categories li a {
