@@ -304,6 +304,11 @@ h1 {
   line-height: 1.85rem;
 }
 
+ul.post-categories {
+    clear: both;
+    float: right;
+}
+
 
 /*********************PROJECTS STYLING**********************/
 .project-container {
