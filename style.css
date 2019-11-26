@@ -298,15 +298,20 @@ h1 {
   opacity: 1;
 }
 
+.post-content {
+  display: flex ;
+  flex-wrap: wrap;
+  align-content: right;
+  justify-content: flex-end;
+}
+
 .post-content p {
   width: 75%;
-  float: right;
   line-height: 1.85rem;
 }
 
 ul.post-categories {
     clear: both;
-    float: right;
     display: inline !important;
 }
 
