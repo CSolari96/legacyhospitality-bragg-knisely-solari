@@ -15,7 +15,7 @@ Template Post Type: page
 <!-- Code used to display all posts on one screen -->
 <?php
 // the query
- $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>2)); ?>
+ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
 
 <?php if ( $wpb_all_query->have_posts() ) : ?>
 
@@ -35,7 +35,7 @@ Template Post Type: page
     <!-- end of the loop -->
     <?php wp_reset_postdata(); ?>
 
-    <div class="pagination-numbers">
+    <div class="pagination-numbers">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING--> 
       <?php echo paginate_links( $args ); ?>
     </div>
 
