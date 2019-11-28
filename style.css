@@ -305,7 +305,7 @@ h1 {
   justify-content: flex-end;
 }
 
-.post-content p {
+.post-content p, .pagination-single {
   width: 75%;
   line-height: 1.85rem;
 }
@@ -323,7 +323,7 @@ ul.post-categories li a {
 }
 
 .pagination-single {
-  display: inline;
+  display: inline-block;
   margin: 0 35px;
 }
 
@@ -335,7 +335,7 @@ ul.post-categories li a {
 }
 
 .pagination-single a:hover {
-  color: #d90000;
+  background-color: #d90000;
 }
 /*********************PROJECTS STYLING**********************/
 .project-container {
