@@ -15,9 +15,13 @@ Template Post Type: page
 <!-- Code used to display all posts on one screen -->
 <?php
 // the query
- $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
+ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>2)); ?>
 
 <?php if ( $wpb_all_query->have_posts() ) : ?>
+
+  <div class="pagination-numbers">
+    <?php echo paginate_links( $args ); ?>
+  </div>
 
 
     <!-- the loop -->
@@ -42,9 +46,6 @@ Template Post Type: page
 
 
     </div> <!-- ends col-md-12-->
-    <div class="pagination-links">
-      <?php echo paginate_links( $args ); ?>
-    </div>
 
   </div>
 </div>

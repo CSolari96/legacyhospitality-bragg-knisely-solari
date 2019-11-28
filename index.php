@@ -26,6 +26,10 @@
         }//ends the if statement
        ?>
 
+       <div class="pagination-links">
+         <?php echo paginate_links( $args ); ?>
+       </div>
+
     </main>
   </div>
 </div>
