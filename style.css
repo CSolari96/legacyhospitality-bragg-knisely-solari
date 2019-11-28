@@ -625,6 +625,8 @@ footer {
   padding: 1% 0;
 }
 
+/*********************MEDIA QUERIES**********************/
+
 /* Media Query - Min 400px */
 @media (min-width: 400px) {
   .h1-montserrat {
@@ -669,6 +671,11 @@ footer {
   .what-we-offer-title {
     font-size: 4rem;
   }
+
+  .content {
+    font-size: 0.9rem;
+    padding-top: 20%;
+  }
 }
 /* End Min 500 */
 
@@ -684,6 +691,16 @@ footer {
 
   .widget-hero-image {
     margin-left: -55px;
+  }
+
+  .what-we-offer {
+    top: -120px;
+    right: -70px;
+  }
+
+  .content {
+    font-size: 1rem;
+    padding-top: 10%;
   }
 }
 /* End Min 600 */
@@ -741,7 +758,6 @@ footer {
 
   .widget-hero-image img {
     width: 75%;
-
   }
 
   .about-legacy p {
@@ -756,6 +772,17 @@ footer {
     top: -150px;
     width: 80%;
     margin-left: auto;
+  }
+
+  .what-we-offer {
+    width: 90%;
+    top: -150px;
+    right: -80px;
+    margin-bottom: 75px;
+  }
+
+  .content {
+    font-size: 1.2rem;
   }
 
   .contact-form {
@@ -817,6 +844,11 @@ footer {
 
   .widget-what-we-offer {
     top: -300px;
+  }
+
+  .what-we-offer {
+    top: -200px;
+    right: 0;
   }
 }
 /* End Min 1000 */
