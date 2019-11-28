@@ -19,11 +19,6 @@ Template Post Type: page
 
 <?php if ( $wpb_all_query->have_posts() ) : ?>
 
-  <div class="pagination-numbers">
-    <?php echo paginate_links( $args ); ?>
-  </div>
-
-
     <!-- the loop -->
     <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
@@ -35,6 +30,10 @@ Template Post Type: page
             </div>
           </div>
         </div>
+
+          <div class="pagination-numbers">
+            <?php echo paginate_links( $args ); ?>
+          </div>
 
     <?php endwhile; ?>
     <!-- end of the loop -->
