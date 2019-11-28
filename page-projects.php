@@ -31,13 +31,13 @@ Template Post Type: page
           </div>
         </div>
 
-          <div class="pagination-numbers">
-            <?php echo paginate_links( $args ); ?>
-          </div>
-
     <?php endwhile; ?>
     <!-- end of the loop -->
     <?php wp_reset_postdata(); ?>
+
+    <div class="pagination-numbers">
+      <?php echo paginate_links( $args ); ?>
+    </div>
 
     <?php else : ?>
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
