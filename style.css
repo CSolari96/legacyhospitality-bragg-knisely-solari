@@ -645,10 +645,6 @@ footer {
   .what-we-offer-title {
     font-size: 3rem;
   }
-
-  .widget-what-we-offer {
-    top: -75px;
-  }
 }
 /* End Min 400 */
 
@@ -768,12 +764,6 @@ footer {
     margin-bottom: -100px;
   }
 
-  .widget-what-we-offer {
-    top: -150px;
-    width: 80%;
-    margin-left: auto;
-  }
-
   .what-we-offer {
     width: 90%;
     top: -150px;
@@ -840,10 +830,6 @@ footer {
   .what-we-offer-title {
     font-size: 5rem;
     padding-left: 5%;
-  }
-
-  .widget-what-we-offer {
-    top: -300px;
   }
 
   .what-we-offer {
