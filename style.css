@@ -323,18 +323,16 @@ ul.post-categories li a {
 }
 
 .pagination-single {
-  display: inline-block;
-  margin: 0 35px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pagination-single a, .pagniation-single a:visited {
     text-decoration: none;
     background-color: #3a3a3c;
-    color: #fff;
+    color: #fff !important!;
     border-radius: 5px;
     padding: 15px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .pagination-single a:hover {
