@@ -305,10 +305,12 @@ h1 {
   justify-content: flex-end;
 }
 
-.post-content p, .pagination-single {
+.post-content p {
   width: 75%;
   line-height: 1.85rem;
 }
+
+
 
 ul.post-categories {
     clear: both;
@@ -326,6 +328,7 @@ ul.post-categories li a {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
+  width: 75%; 
 }
 
 .pagination-single a, .pagniation-single a:visited {
