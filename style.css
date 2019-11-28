@@ -325,7 +325,7 @@ ul.post-categories li a {
 .pagination-single {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 .pagination-single a, .pagniation-single a:visited {
@@ -338,6 +338,7 @@ ul.post-categories li a {
 
 .pagination-single a:hover {
   background-color: #d90000;
+  font-weight: bold;
 }
 /*********************PROJECTS STYLING**********************/
 .project-container {
