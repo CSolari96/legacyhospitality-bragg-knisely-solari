@@ -45,9 +45,17 @@
               <?php
                 $archive_year = get_the_time('Y');
                ?>
-               <div class="no-float-info">
+
                 <p class="post-info"> Published: <a href="<?php echo get_year_link($archive_year); ?>"><?php echo get_the_date(); ?></a> | Categories: <?php the_category(", "); ?></p>
-              </div>
+
+                <div class="pagination-single">
+                  <?php next_post_link('%link', '<< Next Post'); ?>
+                </div>
+
+                <div class="pagination-single">
+                  <?php previous_post_link('%link', 'Previous Post >>'); ?>
+                </div>
+
 
         </main>
       </div>

@@ -322,7 +322,21 @@ ul.post-categories li a {
   font-style: italic;
 }
 
+.pagination-single {
+  display: inline;
+  margin: 0 35px;
+}
 
+.pagination-single a {
+    text-decoration: none;
+    background-color: #3a3a3c;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.pagination-single a:hover {
+  color: #d90000;
+}
 /*********************PROJECTS STYLING**********************/
 .project-container {
   position: relative;
