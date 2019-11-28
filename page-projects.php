@@ -15,7 +15,7 @@ Template Post Type: page
 <!-- Code used to display all posts on one screen -->
 <?php
 // the query
-$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
+//$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
 
 <?php if ( $wpb_all_query->have_posts() ) : ?>
 
