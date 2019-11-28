@@ -327,11 +327,14 @@ ul.post-categories li a {
   margin: 0 35px;
 }
 
-.pagination-single a {
+.pagination-single a, .pagniation-single a:visited {
     text-decoration: none;
     background-color: #3a3a3c;
     color: #fff;
     border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .pagination-single a:hover {
