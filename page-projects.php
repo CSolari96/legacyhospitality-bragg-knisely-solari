@@ -40,8 +40,25 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
     <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
 
+      <div class="pagination-numbers">
+        <?php
+            global $wp_query;
 
-</div>
-</div>
+            $big = 999999999; // need an unlikely integer
+
+            echo paginate_links( array(
+            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+            'format' => '?paged=%#%',
+            'current' => max( 1, get_query_var('paged') ),
+            'total' => $wp_query->max_num_pages
+             ) );
+
+             ?>
+
+        </div> <!--ends pagniation div--> 
+
+    </div> <!-- ends col-md-12-->
+
+  </div>
 </div>
 <?php get_footer(); ?>
