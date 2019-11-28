@@ -329,8 +329,8 @@ ul.post-categories li a {
 
 .pagination-single a, .pagniation-single a:visited {
     text-decoration: none;
-    background-color: #3a3a3c;
-    color: #fff !important!;
+    background-color: #949293;
+    color: #fff !important;
     border-radius: 5px;
     padding: 15px;
 }
