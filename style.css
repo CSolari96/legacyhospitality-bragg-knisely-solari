@@ -294,6 +294,8 @@ h1 {
   position: absolute;
   max-height: 528px;
   min-height: 500px;
+  max-width: 528px;
+  min-width: 500px;
   top: -13%;
   left: -18%;
   width: 55%;
