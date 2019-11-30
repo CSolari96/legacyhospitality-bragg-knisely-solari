@@ -34,7 +34,7 @@ Template Post Type: page
 
     <div class="pagination-number">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING-->
       <?php
-         global $wp_query;
+         global $wp_all_query;
 
          $big = 999999999; // need an unlikely integer
 
@@ -42,7 +42,7 @@ Template Post Type: page
          'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
          'format' => '?paged=%#%',
          'current' => max( 1, get_query_var('paged') ),
-         'total' => $wp_query->max_num_pages
+         'total' => $wp_all_query->max_num_pages
           ) );
 
   ?>
