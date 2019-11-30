@@ -31,7 +31,7 @@ Template Post Type: page
 
     <?php endwhile; ?>
     <!-- end of the loop -->
-
+    <?php wp_reset_postdata(); ?>
     </div>
 
     <?php else : ?>
