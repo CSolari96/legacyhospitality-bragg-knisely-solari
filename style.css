@@ -742,6 +742,10 @@ footer {
   }
 
   .pagination-single a:link, a:visited {
+    display: inline;
+  }
+
+.pagination-single {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
