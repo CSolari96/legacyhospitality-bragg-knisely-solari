@@ -312,9 +312,10 @@ h1 {
 
 .jumbotron hr {
   border: 2px solid #d90000;
-  transform:translateX(650px);
+  transform:translateX(200px);
   width: 90%;
   z-index: 10;
+  overflow-x: hidden;
 }
 
 .jumbotron h1 {
@@ -322,7 +323,7 @@ h1 {
   text-transform: uppercase;
   text-align: right;
   z-index: 10;
-  font-size: 3rem; 
+  font-size: 3rem;
   text-shadow: 0px 0px 6px #3a3a3c;
 }
 
