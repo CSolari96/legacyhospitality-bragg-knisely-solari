@@ -744,7 +744,8 @@ footer {
   .pagination-single a:link, a:visited {
     display: inline;
     justify-content: space-between;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0; 
   }
 
 .pagination-single {
@@ -890,7 +891,7 @@ footer {
 }
 /* End Min 1000 */
 
-/* Media Query - Max 1200px */
+/* Media Query - Max 1200px
 @media (min-width: 1200px) {
   .pagination-single a:link, a:visited {
     padding-bottom: 0;
