@@ -46,7 +46,7 @@
                 $archive_year = get_the_time('Y');
                ?>
 
-                <p class="post-info"> Published: <a href="<?php echo get_year_link($archive_year); ?>"><?php echo get_the_date(); ?></a> | Categories: <?php the_category(", "); ?></p>
+                <p class="post-info"> Published: <a href="<?php echo get_year_link($archive_year); ?>"><?php echo get_the_date(); ?></a> | Categories: <?php the_category(" , "); ?></p>
 
                 <div class="pagination-single">
                   <?php next_post_link('%link', '<< Next Post'); ?>

@@ -359,7 +359,7 @@ ul.post-categories li a {
 
 .pagniation-single {
   display: block;
-  margin: auto; 
+  margin: auto;
 }
 
 .pagination-single a, .pagniation-single a:visited {
@@ -368,6 +368,11 @@ ul.post-categories li a {
     color: #fff !important;
     border-radius: 5px;
     padding: 12px;
+    display: block;
+    margin: auto;
+    max-width: 175px;
+    margin-top: 20px;
+    text-align: center
 }
 
 .pagination-single a:hover {
