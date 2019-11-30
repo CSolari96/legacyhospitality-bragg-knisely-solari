@@ -11,7 +11,7 @@ Template Post Type: page
 <?php get_header(); ?>
     <div class="video-text">
 
-      <h2> Start your Legacy </h2>
+      <h2> - Start your Legacy - </h2>
 
       <div class="button-flex">
         <div class="home-button">
