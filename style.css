@@ -312,11 +312,14 @@ h1 {
 
 .jumbotron hr {
   border: 2px solid #d90000;
-  transform:translateX(75px);
   width: 90%;
   z-index: 10;
   text-align: right;
   margin-right: 0;
+}
+
+.container hr {
+  margin-right: 0 !important; 
 }
 
 .jumbotron h1 {
@@ -897,7 +900,7 @@ footer {
   }
 
   .jumbotron hr {
-      transform:translateX(200px); 
+      transform:translateX(200px);
   }
 }
 /* End Min 1000 */
