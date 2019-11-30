@@ -339,15 +339,9 @@ h1 {
   opacity: 1;
 }
 
-.post-content {
-  display: flex ;
-  flex-wrap: wrap;
-  align-content: right;
-  justify-content: flex-end;
-}
+
 
 .post-content p {
-  width: 75%;
   line-height: 1.85rem;
 }
 
@@ -363,11 +357,9 @@ ul.post-categories li a {
   font-style: italic;
 }
 
-.pagination-single {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-  width: 75%;
+.pagniation-single {
+  display: block;
+  margin: auto; 
 }
 
 .pagination-single a, .pagniation-single a:visited {
@@ -731,6 +723,24 @@ footer {
   .content {
     font-size: 1rem;
     padding-top: 10%;
+  }
+
+  .post-content {
+    display: flex ;
+    flex-wrap: wrap;
+    align-content: right;
+    justify-content: flex-end;
+  }
+
+  .post-content p {
+    width: 75%;
+  }
+
+  .pagination-single {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 75%;
   }
 }
 /* End Min 600 */
