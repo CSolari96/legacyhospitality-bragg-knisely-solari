@@ -49,9 +49,9 @@
                 <p class="post-info"> Published: <a href="<?php echo get_year_link($archive_year); ?>"><?php echo get_the_date(); ?></a> | Categories: <?php the_category(" , "); ?></p>
 
                 <div class="pagination-single">
-                  <?php next_post_link('%link', '<< Next Post'); ?>
+                  <?php previous_post_link('%link', '<< Previous Post '); ?>
 
-                  <?php previous_post_link('%link', 'Previous Post >>'); ?>
+                  <?php next_post_link('%link', ' Next Post >>'); ?>
                 </div>
 
 
