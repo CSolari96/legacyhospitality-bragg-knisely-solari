@@ -141,6 +141,7 @@ header img {
 
 
 .video-text h2{
+  font-size: 3rem;
   text-align: center;
   padding: 100px 0;
 }
@@ -148,14 +149,14 @@ header img {
 
 .home-button a, .home-button a:visited {
     text-decoration: none;
-    background-color: #949293;
+    background-color: #d90000;
     color: #fff !important;
     border-radius: 5px;
     padding: 12px;
 }
 
 .home-button a:hover {
-  background-color: #d90000;
+  background-color: #949293;
   font-weight: bold;
 }
 
