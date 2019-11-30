@@ -312,7 +312,7 @@ h1 {
 
 .jumbotron hr {
   border: 2px solid #d90000;
-  transform:translateX(150px);
+  transform:translateX(75px);
   width: 90%;
   z-index: 10;
   text-align: right;
