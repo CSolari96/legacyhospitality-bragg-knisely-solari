@@ -35,10 +35,6 @@ Template Post Type: page
     <!-- end of the loop -->
     <?php wp_reset_postdata(); ?>
 
-    <div class="pagination-numbers">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING--> 
-      <?php echo paginate_links( $args ); ?>
-    </div>
-
     <?php else : ?>
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
     <?php endif; ?>
@@ -46,6 +42,10 @@ Template Post Type: page
 
     </div> <!-- ends col-md-12-->
 
+  </div>
+
+  <div class="pagination-numbers">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING-->
+    <?php echo paginate_links( $args ); ?>
   </div>
 </div>
 <?php get_footer(); ?>

@@ -421,7 +421,8 @@ ul.post-categories li a {
 }
 
 .pagination-numbers { /*NOT WORKING */
-  width: 100px;
+  width: 100%;
+  min-width: 100px; 
 }
 
 /*********************ARCHIVE STYLING**********************/
