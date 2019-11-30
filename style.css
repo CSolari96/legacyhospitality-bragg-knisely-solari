@@ -372,7 +372,7 @@ ul.post-categories li a {
     margin: auto;
     max-width: 175px;
     margin-top: 20px;
-    text-align: center
+    text-align: center;
 }
 
 .pagination-single a:hover {
@@ -741,7 +741,7 @@ footer {
     width: 75%;
   }
 
-  .pagination-single {
+  .pagination-single a:link, a:visited {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
