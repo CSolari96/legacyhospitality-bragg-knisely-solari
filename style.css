@@ -131,8 +131,6 @@ header img {
 
 .video-text{
   height: 500px;
-  display: flex;
-  align-items: center;
 }
 
 .button-flex{
@@ -144,6 +142,7 @@ header img {
 
 .video-text h2{
   text-align: center;
+  padding: 100px 0;
 }
 
 
