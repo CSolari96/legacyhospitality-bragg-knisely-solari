@@ -292,9 +292,7 @@ h1 {
 /*********************POST STYLING**********************/
 .jumbotron {
   margin-top: 3%;
-  width: 95%;
   height: 400px;
-  background-size: cover;
   background-attachment: fixed;
   display: flex;
   justify-content: flex-end;
@@ -785,6 +783,11 @@ footer {
   .top-menu-class ul li a:hover, .top-menu-class ul li a:hover {
     border-bottom: 2px solid #d90000;
     padding-bottom: 5%;
+  }
+
+  .jumbotron {
+    width: 95%;
+    background-size: cover;
   }
 
 .jumbotron h1 {
