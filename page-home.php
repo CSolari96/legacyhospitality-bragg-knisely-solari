@@ -13,12 +13,7 @@ Template Post Type: page
 
       <h2> Start your Legacy </h2>
 
-      <p>
-      <div class="home-button">
-        <a href="<?php echo get_page_link( get_page_by_title( ABOUT )->ID ); ?>">Learn More</a>
-      </div>
-      </p>
-
+      <a class="home-button" href="<?php echo get_page_link( get_page_by_title( ABOUT )->ID ); ?>">Learn More</a>
     </div>
 </div>
 
