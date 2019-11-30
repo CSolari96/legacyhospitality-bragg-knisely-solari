@@ -14,7 +14,7 @@ Template Post Type: page
 
 <!-- Code used to display all posts on one screen -->
 
-        <?php $args = array('post_type' => 'menu_items', 'posts_per_page' => 4);
+        <?php $args = array('post_type' => 'menu_items', 'posts_per_page' => 2);
 
         $loop = new WP_Query($args);
 
