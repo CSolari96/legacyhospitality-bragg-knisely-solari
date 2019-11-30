@@ -308,7 +308,7 @@ h1 {
 .jumbotron h2 {
   text-align: right;
   z-index: 10;
-  text-shadow: 10px 10px 5px black;
+  text-shadow: 10px 10px 2px black;
   /*background-color: rgba(58, 58, 60, 0.3); */
 }
 
