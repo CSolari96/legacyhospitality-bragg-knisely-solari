@@ -32,7 +32,7 @@ Template Post Type: page
     <?php endwhile; ?>
     <!-- end of the loop -->
 
-    <div class="pagination-numbers">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING-->
+    <div class="pagination-number">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING-->
       <?php
          global $wp_query;
 
@@ -47,7 +47,6 @@ Template Post Type: page
 
   ?>
     </div>
-    <?php wp_reset_postdata(); ?>
 
     <?php else : ?>
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
