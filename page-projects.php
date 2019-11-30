@@ -13,14 +13,12 @@ Template Post Type: page
     <div class="col-md-12">
 
 <!-- Code used to display all posts on one screen -->
-<?php
-// the query
- $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>2)); ?>
 
-<?php if ( $wpb_all_query->have_posts() ) : ?>
+        <?php $args = array('post_type' => 'menu_items', 'posts_per_page' => 4);
 
-    <!-- the loop -->
-    <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+        $loop = new WP_Query($args);
+
+        while($loop->have_posts()): $loop->the_post();   //to display loop ?>
 
         <div class="container">
           <div class="row">
