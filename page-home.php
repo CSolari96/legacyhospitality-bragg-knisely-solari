@@ -9,13 +9,8 @@ Template Post Type: page
 <div class="video-container">
 
 <?php get_header(); ?>
-    <main class="home-page">
-      
-      <?php if(have_posts()){
-        while(have_posts()){
-          the_post(); ?>
-
-          <?php the_content(); ?>
+    <main class="video-text">
+      <p> Start your Legacy </p>
 
     </main>
 </div>
