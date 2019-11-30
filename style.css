@@ -129,6 +129,12 @@ header img {
 
 /*********************HOME STYLING**********************/
 
+.video-text{
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
 .button-flex{
   display:flex;
   justify-content: center;
