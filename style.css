@@ -129,6 +129,30 @@ header img {
 
 /*********************HOME STYLING**********************/
 
+.video-text h2{
+  text-align: center;
+}
+
+.home-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 75%;
+}
+
+.home-button a, .home-button a:visited {
+    text-decoration: none;
+    background-color: #949293;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.home-button a:hover {
+  background-color: #d90000;
+  font-weight: bold;
+}
+
 
 
 /*********************ABOUT PAGE STYLING**********************/

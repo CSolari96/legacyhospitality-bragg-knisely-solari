@@ -10,7 +10,10 @@ Template Post Type: page
 
 <?php get_header(); ?>
     <main class="video-text">
-      <p> Start your Legacy </p>
+      <h2> Start your Legacy </h2>
+      <div class="home-button">
+      <a href="<?php echo get_page_link( get_page_by_title( ABOUT )->ID ); ?>">Link Title</a>
+      </div>
 
     </main>
 </div>
