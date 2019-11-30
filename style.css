@@ -141,12 +141,6 @@ header img {
   text-align: center;
 }
 
-.home-button {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-  width: 75%;
-}
 
 .home-button a, .home-button a:visited {
     text-decoration: none;
