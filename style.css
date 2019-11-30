@@ -312,6 +312,7 @@ h1 {
 
 .jumbotron hr {
   border: 2px solid #d90000;
+  transform:translateX(150px); 
   width: 90%;
   z-index: 10;
   text-align: right;
@@ -319,7 +320,11 @@ h1 {
 }
 
 .container hr {
-  margin-right: 0 !important; 
+  margin-right: 0 !important;
+}
+
+hr {
+  overflow: hidden !important;
 }
 
 .jumbotron h1 {
