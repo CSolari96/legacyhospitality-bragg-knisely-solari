@@ -293,7 +293,7 @@ h1 {
 .jumbotron {
   margin-top: 3%;
   height: 400px;
-  background-attachment: fixed;
+  background-attachment: scroll; /*changed to scroll on mobile version because fixed makes the pictures zoomed in and blurry */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -790,6 +790,7 @@ footer {
 
   .jumbotron {
     width: 95%;
+    background-attachment: fixed;
   }
 
   .jumbotron h1 {
