@@ -315,7 +315,8 @@ h1 {
   /*transform:translateX(200px); */
   width: 90%;
   z-index: 10;
-  align: right;
+  text-align: right;
+  margin-right: 0; 
 }
 
 .jumbotron h1 {
