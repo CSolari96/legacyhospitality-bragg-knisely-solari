@@ -319,7 +319,6 @@ h1 {
 
 .jumbotron h1 {
   font-family: "Gotham Black", sans-serif;
-  font-size: 6rem;
   text-transform: uppercase;
   text-align: right;
   z-index: 10;
@@ -745,7 +744,7 @@ footer {
     display: inline;
     justify-content: space-between;
     margin-left: 0;
-    margin-right: 0; 
+    margin-right: 0;
   }
 
 .pagination-single {
@@ -793,6 +792,10 @@ footer {
   .top-menu-class ul li a:hover, .top-menu-class ul li a:hover {
     border-bottom: 2px solid #d90000;
     padding-bottom: 5%;
+  }
+
+.jumbotron h1 {
+    font-size: 6rem;
   }
 
   .h1-montserrat {
