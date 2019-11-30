@@ -301,6 +301,8 @@ h1 {
   position: relative;
   z-index: -1;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .jumbotron h2 {
