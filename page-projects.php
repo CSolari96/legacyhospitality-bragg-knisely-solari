@@ -14,7 +14,7 @@ Template Post Type: page
 
 <!-- Code used to display all posts on one screen -->
 
-      <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>2)); ?>
+      <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
 
       <?php if ( $wpb_all_query->have_posts() ) : ?>
 
@@ -32,20 +32,6 @@ Template Post Type: page
     <?php endwhile; ?>
     <!-- end of the loop -->
 
-    <div class="pagination-numb">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING-->
-      <?php
-         global $wp_all_query;
-
-         $big = 999999999; // need an unlikely integer
-
-         echo paginate_links( array(
-         'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-         'format' => '?paged=%#%',
-         'current' => max( 1, get_query_var('paged') ),
-         'total' => $wp_all_query->max_num_pages
-          ) );
-
-  ?>
     </div>
 
     <?php else : ?>
