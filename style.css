@@ -129,6 +129,12 @@ header img {
 
 /*********************HOME STYLING**********************/
 
+.video-text{
+  display:flex;
+  align-items: center;
+}
+
+
 .video-text h2{
   text-align: center;
 }
