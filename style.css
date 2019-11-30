@@ -19,6 +19,7 @@
 
 /*********************IMPORT FONTS**********************/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://use.typekit.net/bba0rvq.css');
 
 /*********************UNIVERSAL STYLING**********************/
 
@@ -143,7 +144,10 @@ header img {
 .video-text h2{
   font-size: 3rem;
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 60px 0;
+  font-family: 'big-caslon-fb', serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 
