@@ -312,7 +312,7 @@ h1 {
 
 .jumbotron hr {
   border: 2px solid #d90000;
-  transform:translateX(150px); 
+  transform:translateX(150px);
   width: 90%;
   z-index: 10;
   text-align: right;
@@ -350,6 +350,10 @@ hr {
 
 .post-content p {
   line-height: 1.85rem;
+}
+
+main.col-md-12.post-content {
+    padding: 0 5%;
 }
 
 ul.post-categories {
@@ -737,30 +741,7 @@ footer {
     padding-top: 10%;
   }
 
-  .post-content {
-    display: flex ;
-    flex-wrap: wrap;
-    align-content: right;
-    justify-content: flex-end;
-  }
 
-  .post-content p {
-    width: 75%;
-  }
-
-  .pagination-single a:link, a:visited {
-    display: inline;
-    justify-content: space-between;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-.pagination-single {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    width: 75%;
-  }
 }
 /* End Min 600 */
 
@@ -809,6 +790,35 @@ footer {
   .jumbotron hr {
       transform:translateX(150px);
   }
+
+  main.col-md-12.post-content {
+    padding: 0 1%;
+}
+
+.post-content {
+  display: flex ;
+  flex-wrap: wrap;
+  align-content: right;
+  justify-content: flex-end;
+}
+
+.post-content p {
+  width: 75%;
+}
+
+.pagination-single a:link, a:visited {
+  display: inline;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pagination-single {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 75%;
+}
 
   .h1-montserrat {
     font-size: 4rem;
