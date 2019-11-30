@@ -32,7 +32,7 @@ Template Post Type: page
     <?php endwhile; ?>
     <!-- end of the loop -->
 
-    <div class="pagination-number">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING-->
+    <div class="pagination-numb">        <!---NEED TO FIND OUT WHY THIS IS NOT WORKING-->
       <?php
          global $wp_all_query;
 
