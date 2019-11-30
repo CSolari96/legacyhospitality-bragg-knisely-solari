@@ -309,7 +309,7 @@ h1 {
   text-align: right;
   z-index: 10;
   text-shadow: 5px 5px 10px #2d2d2e;
-  background: rgba(58, 58, 60, 0.2);
+  background-color: rgba(58, 58, 60, 0.3);
 }
 
 .jumbotron hr {
@@ -799,7 +799,7 @@ footer {
   }
 
   .jumbotron h2 {
-    background: none; 
+    background-color: none;
   }
 
   .jumbotron hr {
