@@ -23,13 +23,13 @@
 
 <!-- Jumbotron header -->
       <div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
-        <img class="square" src="<?php bloginfo('template_url'); ?>/img/square.png"/>
+        <img class="square animated fadeInLeft duration1" src="<?php bloginfo('template_url'); ?>/img/square.png"/>
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2> <?php echo $subtitle;?></h2>
-              <hr>
-              <h1> <?php the_title(); ?> </h1>
+              <h2 class="animated fadeInRight delay2 duration1"> <?php echo $subtitle;?></h2>
+              <hr class="animated fadeInRight delay2 duration1">
+              <h1 class="animated fadeInRight delay1 duration1"> <?php the_title(); ?> </h1>
             </div>
           </div>
         </div>
