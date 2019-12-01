@@ -61,13 +61,13 @@ Template Post Type: page
 	</div>
 
 	<section class="top-bottom-space">
-          
-        <div class="container">
-        
+
+        <div class="container animated fadeInLeft duration1 eds-on-scroll ">
+
         	<?php dynamic_sidebar('title-what-we-offer'); ?>
 
-    	</div>
-  
+    	  </div>
+
         <div class="what-we-offer">
 
           <div class="diamond-grid-row">
@@ -79,7 +79,7 @@ Template Post Type: page
             <div class="diamond diamond5 red-bkg">
               <?php dynamic_sidebar('service-2'); ?>
             </div>
-            
+
             <div class="diamond diamond6 light-gray-bkg"></div>
 
           </div>
@@ -89,15 +89,15 @@ Template Post Type: page
             <div class="diamond diamond1 gray-bkg">
               <?php dynamic_sidebar('service-3'); ?>
             </div>
-            
+
             <div class="diamond diamond2 red-bkg">
               <?php dynamic_sidebar('service-4'); ?>
             </div>
-            
+
             <div class="diamond diamond3 gray-bkg">
               <?php dynamic_sidebar('service-5'); ?>
             </div>
-            
+
             <div class="diamond diamond4 gray-bkg">
               <?php dynamic_sidebar('service-6'); ?>
             </div>
@@ -105,13 +105,13 @@ Template Post Type: page
             <div class="diamond diamond5 light-gray-bkg">
               <?php dynamic_sidebar('service-7'); ?>
             </div>
-            
+
             <div class="diamond diamond6 gray-bkg"></div>
-          
+
           </div>
 
         </div>
-                
+
     </section>
 
 </main>
