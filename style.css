@@ -185,21 +185,16 @@ header img {
   max-width: 330px;
   margin: 5% auto;
   position: relative;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
 }
 
-.flip-image:hover .flipper {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+.flip-image:hover .back-content {
+  opacity: 1;
+  transition: all 0.75s;
 }
 
 .flipper {
   width: 100%;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+  transition: all 0.6s;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -214,8 +209,6 @@ header img {
 }
 
 .front-content, .back-content {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -228,8 +221,6 @@ header img {
   padding: 5%;
   display: flex;
   z-index: 2;
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
 }
 
 .front-content h3 {
@@ -243,8 +234,6 @@ header img {
 }
 
 .back-content {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
   background-color: #d90000;
   height: 100%;
   padding: 5%;
@@ -252,6 +241,9 @@ header img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  opacity: 0;
+  z-index: 3;
+  transition: all 0.75s; 
 }
 
 .top-bottom-space {
