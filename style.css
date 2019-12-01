@@ -180,19 +180,19 @@ header img {
     line-height: 30px;
 }
 
-.image-card {
+.flip-image {
   width: 85%;
   max-width: 330px;
   margin: 5% auto;
   position: relative;
 }
 
-.image-card:hover .back-content {
+.flip-image:hover .back-content {
   opacity: 1;
   transition: all 0.75s;
 }
 
-.card {
+.flipper {
   width: 100%;
   transition: all 0.6s;
   position: relative;
@@ -200,7 +200,7 @@ header img {
   background-position: center;
 }
 
-.card::after {
+.flipper::after {
   content: "";
   display: block;
   padding-bottom: 100%;

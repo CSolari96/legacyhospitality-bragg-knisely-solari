@@ -38,19 +38,19 @@ Template Post Type: page
 
 		<section class="row">
 
-			<div class="col-md-4 image-card">
+			<div class="col-md-4 flip-image">
 
 				<?php dynamic_sidebar('home-left'); ?>
 
 			</div>
 
-			<div class="col-md-4 image-card">
+			<div class="col-md-4 flip-image">
 
 				<?php dynamic_sidebar('home-middle'); ?>
 
 			</div>
 
-			<div class="col-md-4 image-card">
+			<div class="col-md-4 flip-image">
 
 				<?php dynamic_sidebar('home-right'); ?>
 
