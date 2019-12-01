@@ -22,7 +22,7 @@ Template Post Type: page
    <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 project-container animated fadeInUp delay1 duration1 eds-on-scroll ">
+            <div class="col-md-12 project-container animated fadeInUp duration1 eds-on-scroll ">
               <?php the_post_thumbnail("large");?>
               <h1 class="project-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
             </div>
