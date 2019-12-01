@@ -18,7 +18,7 @@ Template Post Type: page
 
       </section>
 
-      <section class="col-md-6">
+      <section class="col-md-6 animated fadeInRight duration2">
         <?php
           if(have_posts()){
             while(have_posts()){
