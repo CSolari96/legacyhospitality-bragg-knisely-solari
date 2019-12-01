@@ -530,15 +530,19 @@ ul.post-categories li a {
 }
 
 .top-title-archive {
-  text-align: right;
+  text-align: center;
   font-family: 'Gotham Black', sans-serif;
   font-size: 4rem;
   padding-right: 30px;
 }
 
 .archive-pictures img {
-  display: inline;
-  vertical-align: super;
+  display: block;
+  margin: auto;
+}
+
+h3.archive-title, p.published-on, .archive-read-more a {
+  text-align: center;
 }
 
 .post-categories p,  p.post-info, .post-categories li, .post-categories ul {
@@ -869,7 +873,7 @@ footer {
   }
 
   .jumbotron h2 {
-    background-color: none;
+    font-weight: normal;
   }
 
   .jumbotron hr {
@@ -904,6 +908,28 @@ footer {
   margin-top: 15px;
   width: 75%;
 }
+
+.top-title-archive {
+  text-align: right;
+}
+
+.archive-pictures img {
+  display: inline;
+  vertical-align: super;
+}
+
+h3.archive-title, p.published-on, .archive-read-more a {
+  text-align: left; 
+}
+
+
+
+
+
+
+
+
+
 
   .h1-montserrat {
     font-size: 4rem;
