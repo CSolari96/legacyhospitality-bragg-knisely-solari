@@ -34,6 +34,28 @@ Template Post Type: page
 
 	</section>
 
+	<section class="row">
+
+		<div class="col-md-4">
+
+			<?php dynamic_sidebar('home-left'); ?>
+
+		</div>
+
+		<div class="col-md-4">
+
+			<?php dynamic_sidebar('home-middle'); ?>
+
+		</div>
+
+		<div class="col-md-4">
+
+			<?php dynamic_sidebar('home-right'); ?>
+
+		</div>
+
+	</section>
+
 	<section class="top-bottom-space row">
           
         <?php dynamic_sidebar('title-what-we-offer'); ?>
