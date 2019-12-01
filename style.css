@@ -226,6 +226,15 @@ header img {
   transform: rotateY(0deg);
 }
 
+.front-content h3 {
+  font-family: "Gotham Black", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .back-content {
   transform: rotateY(180deg);
   background-color: #d90000;
