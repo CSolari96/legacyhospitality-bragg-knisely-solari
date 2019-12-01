@@ -88,7 +88,7 @@ function blank_widgets_init(){
 		'name' => ('Home Page Left Block'),
 		'id'=> 'home-left',
 		'description' => 'Left content block on home page',
-		'before_widget' => '<div class="widget-home-left flipper">',
+		'before_widget' => '<div class="widget-home-left card">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="home-left-widget-title">',
 		'after_title' => '</h3>'
@@ -98,7 +98,7 @@ function blank_widgets_init(){
 		'name' => ('Home Page Middle Block'),
 		'id'=> 'home-middle',
 		'description' => 'Middle content block on home page',
-		'before_widget' => '<div class="widget-home-middle flipper">',
+		'before_widget' => '<div class="widget-home-middle card">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="home-middle-widget-title">',
 		'after_title' => '</h3>'
@@ -108,7 +108,7 @@ function blank_widgets_init(){
 		'name' => ('Home Page Right Block'),
 		'id'=> 'home-right',
 		'description' => 'Right content block on home page',
-		'before_widget' => '<div class="widget-home-right flipper">',
+		'before_widget' => '<div class="widget-home-right card">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="home-right-widget-title">',
 		'after_title' => '</h3>'
