@@ -1001,10 +1001,6 @@ footer {
   .widget-hero-image {
     top: -250px
   }
-
-  .what-we-offer-title {
-    padding-left: 15%;
-  }
 }
 /* End Min 900 */
 
@@ -1028,6 +1024,7 @@ footer {
 
   .top-bottom-space {
     max-width: 1140px;
+    margin-bottom: -200px;
   }
 
   .what-we-offer-title {
