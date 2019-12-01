@@ -166,7 +166,18 @@ header img {
   font-weight: bold;
 }
 
+.widget-legacy-intro {
+    margin:  5%;
+    text-align: center;
+}
 
+.legacy-intro-widget-title {
+    margin:  5%;
+}
+
+.widget-legacy-intro .textwidget {
+    line-height: 30px;
+}
 
 /*********************ABOUT PAGE STYLING**********************/
 .h1-montserrat {
