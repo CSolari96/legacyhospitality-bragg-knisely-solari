@@ -204,7 +204,7 @@ header img {
   content: "";
   display: block;
   padding-bottom: 100%;
-  background-color: red;
+  background-color: #949293;
   opacity: 0.6;
 }
 
@@ -228,7 +228,7 @@ header img {
 
 .back-content {
   transform: rotateY(180deg);
-  background-color: red;
+  background-color: #d90000;
   height: 100%;
   padding: 5%;
   display: flex;
