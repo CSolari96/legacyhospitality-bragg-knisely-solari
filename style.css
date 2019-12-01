@@ -751,6 +751,11 @@ footer {
 }
 
 /*********************MEDIA QUERIES**********************/
+/* Media Query - Min 400px */
+@media (min-width: 400px) {
+  .video-text h2{
+    font-size: 2rem;
+}
 
 /* Media Query - Min 400px */
 @media (min-width: 400px) {
