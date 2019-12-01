@@ -229,7 +229,6 @@ header img {
   width: 100%;
   font-family: "Gotham Black", sans-serif;
   text-transform: uppercase;
-  font-size: 2.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1017,6 +1016,10 @@ h3.archive-title, p.published-on {
 
   header img {
     margin-top: 5%;
+  }
+
+  .front-content h3 {
+    font-size: 2.25rem;
   }
 
   .what-we-offer-title {
