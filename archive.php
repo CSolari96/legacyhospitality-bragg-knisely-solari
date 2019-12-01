@@ -28,7 +28,7 @@ get_header();
               <div class="col-md-9 individual-posts">
                 <div class="padding-archive-posts">
                   <h3 class="archive-title"><a href="<?php the_permalink() ?>"><?php the_title();?></a></h3>
-                  <p>Published on: <?php the_time('F Y');?></p>
+                  <p class="published-on">Published on: <?php the_time('F Y');?></p>
                   <p><?php the_excerpt(); ?></p>
                   <div class="archive-read-more">
                     <a href="<?php the_permalink() ?>">Read More</a>
