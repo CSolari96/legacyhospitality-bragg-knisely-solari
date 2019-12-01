@@ -11,9 +11,9 @@ Template Post Type: page
 <?php get_header(); ?>
     <div class="video-text">
 
-      <h2> - Start your Legacy - </h2>
+      <h2 class="animated fadeIn duration2"> - Start your Legacy - </h2>
 
-      <div class="button-flex">
+      <div class="button-flex animated fadeIn delay1 duration2">
         <div class="home-button">
           <a href="<?php echo get_page_link( get_page_by_title( ABOUT )->ID ); ?>">Learn More</a>
         </div>
