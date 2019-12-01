@@ -22,4 +22,18 @@ Template Post Type: page
     </div>
 </div>
 
+<main class="container">
+
+	<div class="row">
+
+		<div class="col-md-12">
+
+			<?php dynamic_sidebar('legacy-intro'); ?>
+
+		</div>
+
+	</div>
+
+</main>
+
 <?php get_footer(); ?>

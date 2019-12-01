@@ -75,6 +75,16 @@ function blank_widgets_init(){
 	));
 
 	register_sidebar(array(
+		'name' => ('Home Page Intro'),
+		'id'=> 'legacy-intro',
+		'description' => 'Introduction to Legacy Hospitality on home page',
+		'before_widget' => '<div class="widget-legacy-intro">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2 class="legacy-intro-widget-title">',
+		'after_title' => '</h2>'
+	));
+
+	register_sidebar(array(
 		'name' => ('Company Motto'),
 		'id'=> 'company-motto',
 		'description' => 'Company motto heading on about page',
