@@ -931,6 +931,9 @@ h3.archive-title, p.published-on {
   text-align: left;
 }
 
+.col-md-9.individual-posts {
+  display: inline-block !important;
+}
 
   .h1-montserrat {
     font-size: 4rem;
