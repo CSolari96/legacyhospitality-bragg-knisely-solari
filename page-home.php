@@ -68,7 +68,7 @@ Template Post Type: page
 
     	  </div>
 
-        <div class="what-we-offer animated fadeInLeft duration1 eds-on-scroll">
+        <div class="what-we-offer">
 
           <div class="diamond-grid-row">
 
