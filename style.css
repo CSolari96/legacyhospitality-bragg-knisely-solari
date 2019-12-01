@@ -579,9 +579,6 @@ ul.post-categories li a:link, a:visited{
     display: inline !important;
 }
 
-.col-md-9.individual-posts {
-    display: inline-block !important;
-}
 
 
 /*********************CONTACT STYLING**********************/
@@ -933,6 +930,9 @@ h3.archive-title, p.published-on {
   text-align: left;
 }
 
+.col-md-9.individual-posts {
+  display: inline-block !important;
+}
 
   .h1-montserrat {
     font-size: 4rem;
