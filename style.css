@@ -250,6 +250,7 @@ header img {
   padding: 5% 0;
   max-width: 1140px;
   margin: auto;
+  overflow: hidden;
 }
 
 .what-we-offer-title {
