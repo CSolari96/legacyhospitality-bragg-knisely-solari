@@ -22,43 +22,51 @@ Template Post Type: page
     </div>
 </div>
 
-<main class="container">
+<main>
 
-	<section class="row">
+	<div class="container">
 
-		<div class="col-md-12">
+		<section class="row">
 
-			<?php dynamic_sidebar('legacy-intro'); ?>
+			<div class="col-md-12">
 
-		</div>
+				<?php dynamic_sidebar('legacy-intro'); ?>
 
-	</section>
+			</div>
 
-	<section class="row">
+		</section>
 
-		<div class="col-md-4 flip-image">
+		<section class="row">
 
-			<?php dynamic_sidebar('home-left'); ?>
+			<div class="col-md-4 flip-image">
 
-		</div>
+				<?php dynamic_sidebar('home-left'); ?>
 
-		<div class="col-md-4 flip-image">
+			</div>
 
-			<?php dynamic_sidebar('home-middle'); ?>
+			<div class="col-md-4 flip-image">
 
-		</div>
+				<?php dynamic_sidebar('home-middle'); ?>
 
-		<div class="col-md-4 flip-image">
+			</div>
 
-			<?php dynamic_sidebar('home-right'); ?>
+			<div class="col-md-4 flip-image">
 
-		</div>
+				<?php dynamic_sidebar('home-right'); ?>
 
-	</section>
+			</div>
 
-	<section class="top-bottom-space row">
+		</section>
+
+	</div>
+
+	<section class="top-bottom-space">
           
-        <?php dynamic_sidebar('title-what-we-offer'); ?>
+        <div class="container">
+        
+        	<?php dynamic_sidebar('title-what-we-offer'); ?>
+
+    	</div>
   
         <div class="what-we-offer">
 
