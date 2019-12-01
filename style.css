@@ -173,6 +173,7 @@ header img {
 
 .legacy-intro-widget-title {
     margin:  5%;
+    font-family: "Gotham Black", sans-serif;
 }
 
 .widget-legacy-intro .textwidget {
@@ -943,6 +944,10 @@ footer {
 
   .h1-gotham {
     font-size: 10rem;
+  }
+
+  .legacy-intro-widget-title {
+    font-size: 2.5rem;
   }
 
   .widget-hero-image {
