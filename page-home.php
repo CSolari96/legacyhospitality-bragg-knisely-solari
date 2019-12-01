@@ -62,13 +62,13 @@ Template Post Type: page
 
 	<section class="top-bottom-space">
 
-        <div class="container animated fadeInLeft duration1 eds-on-scroll ">
+        <div class="container">
 
         	<?php dynamic_sidebar('title-what-we-offer'); ?>
 
     	  </div>
 
-        <div class="what-we-offer">
+        <div class="what-we-offer animated fadeInLeft duration1 eds-on-scroll">
 
           <div class="diamond-grid-row">
 
