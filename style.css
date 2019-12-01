@@ -539,6 +539,7 @@ ul.post-categories li a {
 .archive-pictures img {
   display: block;
   margin: auto;
+  padding-top: 2%;
 }
 
 h3.archive-title, p.published-on, .archive-read-more a {
@@ -916,19 +917,12 @@ footer {
 .archive-pictures img {
   display: inline;
   vertical-align: super;
+  padding-top: 0;
 }
 
-h3.archive-title, p.published-on, .archive-read-more a {
-  text-align: left; 
+h3.archive-title, p.published-on {
+  text-align: left;
 }
-
-
-
-
-
-
-
-
 
 
   .h1-montserrat {
