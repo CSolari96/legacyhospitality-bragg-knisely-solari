@@ -35,6 +35,12 @@ Template Post Type: page
           
     </section>
 
+    <section class="container">
+
+      <?php dynamic_sidebar('interview-video'); ?>
+
+    </section>
+
   </main>
 
 <?php get_footer(); ?>

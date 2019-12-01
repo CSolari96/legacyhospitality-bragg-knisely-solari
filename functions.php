@@ -215,6 +215,16 @@ function blank_widgets_init(){
 	));
 
 	register_sidebar(array(
+		'name' => ('Interview with Tony'),
+		'id'=> 'interview-video',
+		'description' => 'Interview video widget area on About page',
+		'before_widget' => '<div class="interview-widget">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="interview-widget-title">',
+		'after_title' => '</h3>'
+	));
+
+	register_sidebar(array(
 		'name' => ('Contact Form'),
 		'id'=> 'contact-form',
 		'description' => 'Contact form widget area',
