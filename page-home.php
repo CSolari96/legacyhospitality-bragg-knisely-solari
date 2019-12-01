@@ -24,7 +24,7 @@ Template Post Type: page
 
 <main class="container">
 
-	<div class="row">
+	<section class="row">
 
 		<div class="col-md-12">
 
@@ -32,7 +32,57 @@ Template Post Type: page
 
 		</div>
 
-	</div>
+	</section>
+
+	<section class="top-bottom-space row">
+          
+        <?php dynamic_sidebar('title-what-we-offer'); ?>
+  
+        <div class="what-we-offer">
+
+          <div class="diamond-grid-row">
+
+            <div class="diamond diamond3 light-gray-bkg">
+              <?php dynamic_sidebar('service-1'); ?>
+            </div>
+
+            <div class="diamond diamond5 red-bkg">
+              <?php dynamic_sidebar('service-2'); ?>
+            </div>
+            
+            <div class="diamond diamond6 light-gray-bkg"></div>
+
+          </div>
+
+          <div class="diamond-grid-row">
+
+            <div class="diamond diamond1 gray-bkg">
+              <?php dynamic_sidebar('service-3'); ?>
+            </div>
+            
+            <div class="diamond diamond2 red-bkg">
+              <?php dynamic_sidebar('service-4'); ?>
+            </div>
+            
+            <div class="diamond diamond3 gray-bkg">
+              <?php dynamic_sidebar('service-5'); ?>
+            </div>
+            
+            <div class="diamond diamond4 gray-bkg">
+              <?php dynamic_sidebar('service-6'); ?>
+            </div>
+
+            <div class="diamond diamond5 light-gray-bkg">
+              <?php dynamic_sidebar('service-7'); ?>
+            </div>
+            
+            <div class="diamond diamond6 gray-bkg"></div>
+          
+          </div>
+
+        </div>
+                
+    </section>
 
 </main>
 
