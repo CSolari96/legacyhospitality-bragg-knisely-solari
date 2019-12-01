@@ -247,44 +247,6 @@ header img {
   text-align: center;
 }
 
-/*********************ABOUT PAGE STYLING**********************/
-.h1-montserrat {
-  color: #949293;
-  font-size: 2rem;
-}
-
-.h1-gotham {
-  font-size: 4rem;
-  font-family: "Gotham Black", sans-serif;
-  letter-spacing: 5px;
-}
-
-.red {
-  color: #d90000;
-}
-
-.widget-hero-image {
-  text-align: right;
-  margin-left: auto;
-  width: 43%;
-  position: relative;
-  top: -50px;
-  float: right;
-  padding-left: 3%;
-}
-
-h1 {
-  position: relative;
-  z-index: 999;
-}
-
-.red-left-border {
-  border-left: 1px solid #d90000;
-  padding: 3% 0 3% 2%;
-  max-width: 1140px;
-  margin: auto;
-}
-
 .top-bottom-space {
   padding: 5% 0;
   max-width: 1140px;
@@ -363,6 +325,44 @@ h1 {
   flex-direction: column;
   justify-content: center;
   transform: rotate(-45deg);
+}
+
+/*********************ABOUT PAGE STYLING**********************/
+.h1-montserrat {
+  color: #949293;
+  font-size: 2rem;
+}
+
+.h1-gotham {
+  font-size: 4rem;
+  font-family: "Gotham Black", sans-serif;
+  letter-spacing: 5px;
+}
+
+.red {
+  color: #d90000;
+}
+
+.widget-hero-image {
+  text-align: right;
+  margin-left: auto;
+  width: 43%;
+  position: relative;
+  top: -50px;
+  float: right;
+  padding-left: 3%;
+}
+
+h1 {
+  position: relative;
+  z-index: 999;
+}
+
+.red-left-border {
+  border-left: 1px solid #d90000;
+  padding: 3% 0 3% 2%;
+  max-width: 1140px;
+  margin: auto;
 }
 
 
