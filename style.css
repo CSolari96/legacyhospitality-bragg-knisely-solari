@@ -751,14 +751,17 @@ footer {
 }
 
 /*********************MEDIA QUERIES**********************/
-/* Media Query - Min 400px */
+/* Media Query - Max 400px */
 @media (max-width: 400px) {
-  .video-text h2{
-    font-size: 2rem;
+
 }
 
 /* Media Query - Min 400px */
 @media (min-width: 400px) {
+  .video-text h2{
+    font-size: 2rem;
+  }
+
   .h1-montserrat {
     font-size: 2.5rem;
   }
