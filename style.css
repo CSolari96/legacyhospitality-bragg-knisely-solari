@@ -295,7 +295,7 @@ h1 {
 }
 
 .what-we-offer {
-  width: 120%;
+  width: 113%;
   margin-left: auto;
   position: relative;
   top: -50px;
@@ -769,6 +769,10 @@ footer {
     font-size: 3rem;
   }
 
+  .what-we-offer {
+    top: -100px;
+  }
+
   .content {
     font-size: 0.8rem;
     padding-top: 20%;
@@ -796,10 +800,6 @@ footer {
     font-size: 4rem;
   }
 
-  .what-we-offer {
-    top: -100px;
-  }
-
   .content {
     font-size: 0.9rem;
   }
@@ -822,7 +822,6 @@ footer {
 
   .what-we-offer {
     top: -120px;
-    right: -70px;
   }
 
   .content {
@@ -833,8 +832,6 @@ footer {
   .jumbotron hr {
       transform:translateX(100px);
   }
-
-
 }
 /* End Min 600 */
 
@@ -895,50 +892,50 @@ footer {
 
   main.col-md-12.post-content {
     padding: 0 1%;
-}
+  }
 
-.post-content {
-  display: flex ;
-  flex-wrap: wrap;
-  align-content: right;
-  justify-content: flex-end;
-}
+  .post-content {
+    display: flex ;
+    flex-wrap: wrap;
+    align-content: right;
+    justify-content: flex-end;
+  }
 
-.post-content p {
-  width: 75%;
-}
+  .post-content p {
+    width: 75%;
+  }
 
-.pagination-single a:link, a:visited {
-  display: inline;
-  justify-content: space-between;
-  margin-left: 0;
-  margin-right: 0;
-}
+  .pagination-single a:link, a:visited {
+    display: inline;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-.pagination-single {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-  width: 75%;
-}
+  .pagination-single {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 75%;
+  }
 
-.top-title-archive {
-  text-align: right;
-}
+  .top-title-archive {
+    text-align: right;
+  }
 
-.archive-pictures img {
-  display: inline;
-  vertical-align: super;
-  padding-top: 0;
-}
+  .archive-pictures img {
+    display: inline;
+    vertical-align: super;
+    padding-top: 0;
+  }
 
-h3.archive-title, p.published-on {
-  text-align: left;
-}
+  h3.archive-title, p.published-on {
+    text-align: left;
+  }
 
-.col-md-9.individual-posts {
-  display: inline-block !important;
-}
+  .col-md-9.individual-posts {
+    display: inline-block !important;
+  }
 
   .h1-montserrat {
     font-size: 4rem;
@@ -963,13 +960,14 @@ h3.archive-title, p.published-on {
 
   .top-bottom-space {
     margin-bottom: -100px;
+    max-width: 960px;
+    overflow: hidden;
   }
 
   .what-we-offer {
-    width: 90%;
+    width: 100%;
     top: -150px;
-    right: -80px;
-    margin-bottom: 75px;
+    right: -12%;
   }
 
   .content {
@@ -1028,14 +1026,18 @@ h3.archive-title, p.published-on {
     font-size: 2.25rem;
   }
 
+  .top-bottom-space {
+    max-width: 1140px;
+  }
+
   .what-we-offer-title {
     font-size: 5rem;
     padding-left: 5%;
   }
 
   .what-we-offer {
-    top: -200px;
-    right: 0;
+    top: -300px;
+    width: 90%;
   }
 
   .jumbotron hr {
